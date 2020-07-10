@@ -1,5 +1,6 @@
 import '../scss/normalize.scss'
 
+import '../scss/_body.scss'
 import '../scss/_font-family.scss'
 import '../scss/_h1-h6.scss'
 import '../scss/_box-sizing.scss'
