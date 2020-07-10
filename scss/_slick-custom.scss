@@ -11,6 +11,10 @@
     background-repeat: no-repeat;
     cursor: pointer;
     transition: all 0.15s ease-in-out;
+
+    @media (max-width: 41.6875rem) {
+      display: none;
+    }
   }
 
   .slick-prev {
