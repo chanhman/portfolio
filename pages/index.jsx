@@ -10,7 +10,8 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet"/> 
       </Head>
       <Hero/>
-      <CaseStudy></CaseStudy>
+      <CaseStudy/>
+      <CaseStudy/>
     </>
   )
 }
