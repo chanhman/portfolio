@@ -1,11 +1,5 @@
 @import '../../scss/functions';
 
-.container {
-  max-width: 80rem;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .summary {
   display: grid;
   grid-gap: 40px;
@@ -50,5 +44,7 @@
 
 .gallery {
   margin-top: 5.5rem;
+  padding: 2rem;
+
   background-color: #00000010;
 }

@@ -1,10 +1,34 @@
 import Slider from 'react-slick';
 import styles from './CaseStudy.module.scss'
 
+function SampleNextArrow(props) {
+  const { className, onClick } = props;
+
+  return (
+    <div
+      className={className}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, onClick } = props;
+  
+  return (
+    <div
+      className={className}
+      onClick={onClick}
+    />
+  );
+}
+
 const CaseStudy = () => {
   const settings = {
     dots: true,
-    className: 'slick-custom'
+    className: 'slick-custom',
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
 
   return (
