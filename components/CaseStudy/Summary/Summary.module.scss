@@ -1,12 +1,19 @@
 @import '../../../scss/functions';
 
 .container {
-  display: grid;
-  grid-gap: 40px;
-  grid-template-columns: repeat(12, 1fr);
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 3rem;
+  padding-left: 3rem;
+
+  @media (min-width: 64rem) {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(12, 1fr);
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 .heading {
@@ -16,8 +23,11 @@
   margin-bottom: 3rem;
   padding-bottom: 3rem;
 
-  font-size: get-vw(3rem);
   text-transform: uppercase;
+
+  @media (min-width: 64rem) {
+    font-size: get-vw(3rem);
+  }
 
   &::after {
     content: '';
@@ -34,9 +44,11 @@
 }
 
 .description {
-  column-count: 2;
-  column-gap: 40px;
-  grid-column: 2 / -2;
+  @media (min-width: 64rem) {
+    column-count: 2;
+    column-gap: 40px;
+    grid-column: 2 / -2;
+  }
 
   p:first-child {
     margin-top: 0;

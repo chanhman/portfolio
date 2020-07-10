@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  padding-right: 3rem;
+  padding-left: 3rem;
 
   text-align: center;
 }
@@ -13,19 +15,25 @@
   margin-top: 0;
   margin-bottom: 0;
 
-  font-size: get-vw(5.625rem);
   text-transform: uppercase;
   text-shadow: 0px 4px 3rem rgba(0, 0, 0, 0.15);
+
+  @media (min-width: 64rem) {
+    font-size: get-vw(5.625rem);
+  }
 }
 
 .pronunciation {
   margin-top: 0;
   margin-bottom: 0;
 
-  font-size: get-vw(0.625rem);
   font-weight: 700;
 
   opacity: 0.5;
+
+  @media (min-width: 64rem) {
+    font-size: get-vw(0.625rem);
+  }
 }
 
 .description {
@@ -35,7 +43,9 @@
   margin: 2.5rem auto 3rem auto;
   padding-top: 3rem;
 
-  font-size: get-vw(1.125rem);
+  @media (min-width: 64rem) {
+    font-size: get-vw(1.125rem);
+  }
 
   &::before {
     content: '';
