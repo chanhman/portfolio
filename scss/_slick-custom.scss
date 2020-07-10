@@ -1,0 +1,8 @@
+.slick-custom {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+
+  .slick-dots {
+    grid-column: 1 / -1;
+  }
+}

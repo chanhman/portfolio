@@ -1,5 +1,8 @@
 import '../scss/normalize.scss'
 
+import 'slick-carousel/slick/slick.css'
+import '../scss/_slick-custom.scss'
+
 import '../scss/_body.scss'
 import '../scss/_font-family.scss'
 import '../scss/_h1-h6.scss'
