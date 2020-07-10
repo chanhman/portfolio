@@ -1,0 +1,50 @@
+@import '../../scss/functions';
+
+.summary {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(12, 1fr);
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.summaryHeading {
+  position: relative;
+  grid-column: 1 / 7;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+
+  font-size: get-vw(3rem);
+  text-transform: uppercase;
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    height: 0.25rem;
+    width: get-vw(11.25rem);
+
+    background-color: #000000;
+  }
+}
+
+.summaryDescription {
+  column-count: 2;
+  column-gap: 40px;
+  grid-column: 2 / -2;
+
+  p:first-child {
+    margin-top: 0;
+  }
+}
+
+.gallery {
+  margin-top: 5.5rem;
+  padding: 2rem;
+
+  background-color: #00000010;
+}
