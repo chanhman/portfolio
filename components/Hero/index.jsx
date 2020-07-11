@@ -6,8 +6,7 @@ const Hero = () => (
   <header className={styles.container}>
     <h1 className={styles.title}>Chanh Nguyen</h1>
     <p className={styles.pronunciation}>/chan win/</p>
-    <p className={styles.description}>Designer and front-end developer at Objective Inc, living in Salt Lake City, Utah, 
-survived a skydiving accident, and now crushing it in the mountains with a brachial plexus injury.</p>
+    <p className={styles.description}>I am a designer and front-end developer at Objective Inc., living in Salt Lake City.</p>
     <div className={styles.socialMediaLinks}>
       <a href="https://www.instagram.com/chanhlemonlime/"><Instagram/></a>
       <a href="https://www.linkedin.com/in/chanh-nguyen-8ab501b8/"><Linkedin/></a>

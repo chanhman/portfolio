@@ -20,7 +20,7 @@
   position: relative;
   grid-column: 1 / 7;
   margin-top: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
   padding-bottom: 3rem;
 
   text-transform: uppercase;
@@ -40,6 +40,19 @@
     width: get-vw(11.25rem);
 
     background-color: #000000;
+  }
+}
+
+.intro {
+  grid-column: 1 / 10;
+
+  font-size: 24px;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    opacity: 1;
   }
 }
 
