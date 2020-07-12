@@ -2,8 +2,8 @@
 
 .container {
   display: grid;
-  grid-gap: 40px;
-  max-width: 1024px;
+  grid-gap: 2.5rem;
+  max-width: 64rem;
   margin-right: auto;
   margin-left: auto;
   padding-right: 3rem;
@@ -18,6 +18,8 @@
 
 .heading {
   position: relative;
+
+  grid-column: 1 / -1;
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 3rem;
@@ -45,12 +47,14 @@
 }
 
 .intro {
+  grid-column: 1 / -1;
+
   font-size: 1.25rem;
 
   @media (min-width: 64rem) {
     grid-column: 1 / 10;
 
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   p {
@@ -62,9 +66,12 @@
 }
 
 .description {
-  @media (min-width: 64rem) {
+  @media (min-width: 41.6875rem) {
     column-count: 2;
-    column-gap: 40px;
+    column-gap: 2.5rem;
+  }
+
+  @media (min-width: 64rem) {
     grid-column: 2 / -2;
   }
 
