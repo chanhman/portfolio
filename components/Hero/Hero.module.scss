@@ -9,6 +9,10 @@
   padding-left: 3rem;
 
   text-align: center;
+
+  @media (min-width: 41.6875rem) and (orientation: landscape) {
+    height: 200vh;
+  }
 }
 
 .title {
