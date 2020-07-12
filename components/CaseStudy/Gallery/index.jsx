@@ -35,22 +35,16 @@ const Gallery = () => {
     <div className={styles.container}>
       <Slider {...settings}>
         <div>
-          <h3>1</h3>
+          <img src="project/built/built-1.png" alt="" />
         </div>
         <div>
-          <h3>2</h3>
+          <img src="project/built/built-2.png" alt="" />
         </div>
         <div>
-          <h3>3</h3>
+          <img src="project/built/built-3.png" alt="" />
         </div>
         <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
+          <img src="project/built/built-4.png" alt="" />
         </div>
       </Slider>
     </div>
