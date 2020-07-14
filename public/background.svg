@@ -3,8 +3,8 @@
 <path d="M1440 0H80L1440 800V0Z" fill="url(#paint0_radial)"/>
 <defs>
 <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 400) rotate(90) scale(400 680)">
-<stop stop-color="#FC5851"/>
-<stop offset="1" stop-color="#EE2D24"/>
+<stop stop-color="#FF0000"/>
+<stop offset="1" stop-color="#FF0000"/>
 </radialGradient>
 </defs>
 </svg>

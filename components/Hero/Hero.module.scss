@@ -24,8 +24,12 @@
   text-transform: uppercase;
   text-shadow: 0 0.25rem 3rem rgba(0, 0, 0, 0.15);
 
+  mix-blend-mode: difference;
+  color: #FF0000;
+  filter: invert(1);
+
   @media (min-width: 64rem) {
-    font-size: get-vw(5.625rem);
+    font-size: get-vw(8rem);
   }
 }
 
@@ -35,7 +39,7 @@
 
   font-weight: 700;
 
-  opacity: 0.5;
+  opacity: 1;
 
   @media (min-width: 64rem) {
     font-size: get-vw(0.625rem);
@@ -48,6 +52,7 @@
   max-width: 50rem;
   margin: 2.5rem auto 3rem auto;
   padding-top: 3rem;
+  opacity: 1;
 
   @media (min-width: 64rem) {
     font-size: get-vw(1.125rem);
