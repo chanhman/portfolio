@@ -22,11 +22,6 @@
   font-size: 16vw;
   line-height: 1;
   text-transform: uppercase;
-  text-shadow: 0 0.25rem 3rem rgba(0, 0, 0, 0.15);
-
-  mix-blend-mode: difference;
-  color: #FF0000;
-  filter: invert(1);
 
   @media (min-width: 64rem) {
     font-size: get-vw(8rem);
