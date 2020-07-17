@@ -35,6 +35,9 @@ const Gallery = () => {
     <div className={styles.container}>
       <Slider {...settings}>
         <div>
+          <img src="project/built/cover.png" alt="" />
+        </div>
+        <div>
           <img src="project/built/built-1.png" alt="" />
         </div>
         <div>
@@ -45,6 +48,12 @@ const Gallery = () => {
         </div>
         <div>
           <img src="project/built/built-4.png" alt="" />
+        </div>
+        <div>
+          <img src="project/built/built-5.png" alt="" />
+        </div>
+        <div>
+          <img src="project/built/built-6.png" alt="" />
         </div>
       </Slider>
     </div>
