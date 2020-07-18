@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Hero from '../components/Hero'
-import CaseStudy from '../components/CaseStudy'
+import Hero from 'components/Hero'
+import CaseStudy from 'components/CaseStudy'
 
 const GA_TRACKING_ID = 'UA-172462762-1'
 
