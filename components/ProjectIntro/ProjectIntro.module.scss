@@ -1,0 +1,18 @@
+@import '../../scss/functions';
+
+.container {
+  height: 80vh;
+  margin-bottom: 6rem;
+
+  color: #fff;
+
+  background-color: #1A98DB;
+}
+
+.heading {
+  font-size: get-vw(3.25rem);
+}
+
+.subheading {
+  font-size: get-vw(1rem);
+}

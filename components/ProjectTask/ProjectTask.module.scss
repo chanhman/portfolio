@@ -1,8 +1,6 @@
-@import '../../../scss/functions';
+@import '../../scss/functions';
 
-.container {
-  display: grid;
-  grid-gap: 2.5rem;
+.header {
   max-width: 64rem;
   margin-right: auto;
   margin-left: auto;
@@ -10,7 +8,6 @@
   padding-left: 3rem;
 
   @media (min-width: 64rem) {
-    grid-template-columns: repeat(12, 1fr);
     padding-right: 0;
     padding-left: 0;
   }
@@ -19,17 +16,12 @@
 .heading {
   position: relative;
 
-  grid-column: 1 / -1;
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 3rem;
-
-  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.25rem;
 
   @media (min-width: 64rem) {
-    grid-column: 1 / 7;
-
-    font-size: get-vw(3rem);
+    font-size: get-vw(2.25rem);
   }
 
   &::after {
@@ -46,15 +38,11 @@
   }
 }
 
-.intro {
-  grid-column: 1 / -1;
-
+.description {
   font-size: 1.25rem;
 
   @media (min-width: 64rem) {
-    grid-column: 1 / 10;
-
-    font-size: 1.5rem;
+    font-size: get-vw(1.125rem);
   }
 
   p {
@@ -65,17 +53,11 @@
   }
 }
 
-.description {
-  @media (min-width: 41.6875rem) {
-    column-count: 2;
-    column-gap: 2.5rem;
-  }
+.images {
+  display: grid;
+  grid-gap: 1rem;
 
-  @media (min-width: 64rem) {
-    grid-column: 2 / -2;
-  }
-
-  p:first-child {
-    margin-top: 0;
+  img {
+    width: 100%;
   }
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Hero from 'components/Hero'
-import CaseStudy from 'components/CaseStudy'
+import BuiltForTeams from 'components/BuiltForTeams'
+import Experience from 'components/Experience'
 
 const GA_TRACKING_ID = 'UA-172462762-1'
 
@@ -30,8 +31,9 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet"/> 
       </Head>
       <Hero/>
-      <CaseStudy/>
-      <CaseStudy/>
+      <h2>My Work</h2>
+      <BuiltForTeams/>
+      <Experience/>
     </>
   )
 }

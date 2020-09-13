@@ -1,0 +1,19 @@
+@import '../../scss/functions';
+
+.container {
+  margin-top: get-vw(5rem);
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+

@@ -21,7 +21,6 @@
 
   font-size: 16vw;
   line-height: 1;
-  text-transform: uppercase;
 
   @media (min-width: 64rem) {
     font-size: get-vw(8rem);
@@ -72,7 +71,7 @@
  a {
    margin-right: 0.5rem;
    margin-left: 0.5rem;
-   
+
    &:hover {
      opacity: 0.5;
    }
