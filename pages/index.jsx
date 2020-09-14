@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Hero from 'components/Hero'
 import BuiltForTeams from 'components/BuiltForTeams'
-import Experience from 'components/Experience'
+import GearTrade from 'components/GearTrade'
+
 
 const GA_TRACKING_ID = 'UA-172462762-1'
 
@@ -28,10 +29,11 @@ export default function Home() {
         />
 
         <title>Chanh Nguyen</title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet"/>
       </Head>
       <Hero/>
       <BuiltForTeams/>
+      <GearTrade/>
     </>
   )
 }
