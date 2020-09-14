@@ -1,12 +1,9 @@
-@import '../../scss/functions';
+@import '../../scss/sass-shit.scss';
 
 .container {
   margin-bottom: get-vw(5rem);
 }
 
 .subheading {
-  margin-bottom: 2rem;
-
-  font-size: 0.75rem;
-  text-align: center;
+  @include h6;
 }
