@@ -10,7 +10,15 @@ const BuiltForTeams = () => (
       role="I collaborate with designers and developers by helping with the design process and front-end development. My role ranges from doing user research to designing and developing new features."
     />
 
-    <h2>Projects</h2>
+    <h2 className={styles.subheading}>Projects</h2>
+
+    <ProjectTask
+      name="Name"
+      description="Description"
+    >
+      <img src="http://placekitten.com/g/200/300" alt=""/>
+      <img src="http://placekitten.com/g/200/300" alt=""/>
+    </ProjectTask>
 
     <ProjectTask
       name="Name"

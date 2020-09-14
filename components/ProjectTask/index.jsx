@@ -2,7 +2,7 @@ import Gallery from 'components/Gallery'
 import styles from './ProjectTask.module.scss'
 
 const ProjectTask = ({name, description, children}) => (
-  <>
+  <div className={styles.container}>
     <div className={styles.header}>
       <h4 className={styles.heading}>{name}</h4>
       <div className={styles.description}>
@@ -13,7 +13,7 @@ const ProjectTask = ({name, description, children}) => (
     <Gallery>
       {children}
     </Gallery>
-  </>
+  </div>
 )
 
 export default ProjectTask

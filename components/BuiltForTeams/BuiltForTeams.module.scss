@@ -1,3 +1,12 @@
+@import '../../scss/functions';
+
 .container {
-  margin-bottom: 6rem;
+  margin-bottom: get-vw(5rem);
+}
+
+.subheading {
+  margin-bottom: 2rem;
+
+  font-size: 0.75rem;
+  text-align: center;
 }

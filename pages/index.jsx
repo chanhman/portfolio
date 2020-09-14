@@ -31,9 +31,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet"/> 
       </Head>
       <Hero/>
-      <h2>My Work</h2>
       <BuiltForTeams/>
-      <Experience/>
     </>
   )
 }

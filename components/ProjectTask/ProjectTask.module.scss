@@ -1,5 +1,11 @@
 @import '../../scss/functions';
 
+.container {
+  &:not(:last-of-type) {
+    margin-bottom: get-vw(5rem);
+  }
+}
+
 .header {
   max-width: 64rem;
   margin-right: auto;
@@ -8,8 +14,8 @@
   padding-left: 3rem;
 
   @media (min-width: 64rem) {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: get-vw(5rem);
+    padding-left: get-vw(5rem);
   }
 }
 
@@ -17,8 +23,8 @@
   position: relative;
 
   margin-top: 0;
-  margin-bottom: 2.5rem;
-  padding-bottom: 2.25rem;
+  margin-bottom: get-vw(2.5rem);
+  padding-bottom: get-vw(2.5rem);
 
   @media (min-width: 64rem) {
     font-size: get-vw(2.25rem);
@@ -50,14 +56,5 @@
     margin-bottom: 0;
 
     opacity: 1;
-  }
-}
-
-.images {
-  display: grid;
-  grid-gap: 1rem;
-
-  img {
-    width: 100%;
   }
 }
