@@ -1,0 +1,23 @@
+@import '../../scss/sass-shit';
+
+.container {
+  margin-top: get-vw(5rem);
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2rem;
+  padding: 2rem;
+
+  @media (min-width: 64rem) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+

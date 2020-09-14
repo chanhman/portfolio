@@ -1,0 +1,60 @@
+@import '../../scss/sass-shit';
+
+.container {
+  &:not(:last-of-type) {
+    margin-bottom: get-vw(5rem);
+  }
+}
+
+.header {
+  max-width: 64rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 3rem;
+  padding-left: 3rem;
+
+  @media (min-width: 64rem) {
+    padding-right: get-vw(5rem);
+    padding-left: get-vw(5rem);
+  }
+}
+
+.heading {
+  position: relative;
+
+  margin-top: 0;
+  margin-bottom: get-vw(2.5rem);
+  padding-bottom: get-vw(2.5rem);
+
+  @media (min-width: 64rem) {
+    font-size: get-vw(2.25rem);
+  }
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    height: 0.25rem;
+    width: get-vw(11.25rem);
+
+    background-color: #FF0000;
+  }
+}
+
+.description {
+  font-size: 1.25rem;
+
+  @media (min-width: 64rem) {
+    font-size: get-vw(1.125rem);
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    opacity: 1;
+  }
+}

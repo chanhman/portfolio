@@ -1,0 +1,14 @@
+a {
+  color: #000;
+  text-decoration-color: #3498db;
+
+  &:hover,
+  &:visited:hover {
+    text-decoration-color: #FF0000;
+  }
+
+  &:visited {
+    color: inherit;
+    text-decoration-color: #3498db;
+  }
+}
