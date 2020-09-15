@@ -19,6 +19,7 @@ const BuiltForTeams = () => (
       <img src="/projects/built__design-system.png" alt=""/>
       <img src="/projects/built__kiln-forms.png" alt=""/>
       <img src="/projects/built__kiln-buttons.png" alt=""/>
+      <img src="/projects/built__kiln-modal.png" alt=""/>
     </ProjectTask>
 
     <ProjectTask
