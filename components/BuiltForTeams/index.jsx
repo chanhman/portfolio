@@ -17,6 +17,8 @@ const BuiltForTeams = () => (
       description="I designed, developed, and helped maintain the design system. This included creating a	 Sketch file with reusable components, and developing a dedicated website that included a preview and code snippets. With the introduction of the design system, designing and developing new features became faster."
     >
       <img src="/projects/built__design-system.png" alt=""/>
+      <img src="/projects/built__kiln-forms.png" alt=""/>
+      <img src="/projects/built__kiln-buttons.png" alt=""/>
     </ProjectTask>
 
     <ProjectTask

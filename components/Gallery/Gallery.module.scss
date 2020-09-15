@@ -7,7 +7,15 @@
   max-width: 80rem;
 
   img {
+    display: block;
+    padding: 1rem;
     width: 100%;
+
+    border: 0.0625rem solid #f1f1f1;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
   }
 }
 
