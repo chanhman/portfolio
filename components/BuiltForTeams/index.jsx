@@ -26,16 +26,16 @@ const BuiltForTeams = () => (
       name="Mobile App"
       description="I designed the native application dedicated to making PTO requests. I designed a high fidelity prototype for developers so they would have a clear understanding of how things should behave."
     >
-      <img src="http://placekitten.com/g/200/300" alt=""/>
-      <img src="http://placekitten.com/g/200/300" alt=""/>
+      <img src="/projects/built__mobile.png" alt=""/>
     </ProjectTask>
 
     <ProjectTask
       name="Web App"
       description="I redesigned and developed an updated version of the web app. While writing clean HTML and CSS, I took the opportunity to make the web app responsive. I helped our junior designers by critiquing their work and giving feedback. I also designed, developed, and tested new features."
     >
-      <img src="http://placekitten.com/g/200/300" alt=""/>
-      <img src="http://placekitten.com/g/200/300" alt=""/>
+      <img src="/projects/built__job.png" alt=""/>
+      <img src="/projects/built__profile.png" alt=""/>
+      <img src="/projects/built__pto.png" alt=""/>
     </ProjectTask>
   </section>
 )
