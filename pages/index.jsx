@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <script
+        {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
         />
@@ -26,7 +26,7 @@ export default function Home() {
           });
         `,
           }}
-        />
+        /> */}
 
         <title>Chanh Nguyen</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet"/>
