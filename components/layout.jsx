@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from 'components/Header'
 
 const GA_TRACKING_ID = 'UA-172462762-1'
 
@@ -28,7 +29,9 @@ function Layout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet"/>
       </Head>
 
-      {children}
+      <Header></Header>
+
+      <main>{children}</main>
     </>
   )
 }

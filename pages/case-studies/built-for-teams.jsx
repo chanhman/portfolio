@@ -1,4 +1,4 @@
-import Layout from 'components/layout'
+import Layout from 'components/Layout'
 import BuiltForTeams from 'components/BuiltForTeams'
 
 const BuiltForTeamsCaseStudy = () => (
