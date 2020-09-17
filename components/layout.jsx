@@ -9,7 +9,7 @@ function Layout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet"/>
       </Head>
 
-      <Header></Header>
+      {/* <Header></Header> */}
 
       <main>{children}</main>
     </>
