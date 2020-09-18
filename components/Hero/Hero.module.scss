@@ -4,14 +4,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 90vh;
+  margin-bottom: 6rem;
+  min-height: 100vh;
   padding-right: 3rem;
   padding-left: 3rem;
 
+  color: #fff;
   text-align: center;
+
+  background-color: #000;
 
   @media (max-width: 48rem) and (orientation: landscape) {
     height: 200vh;
+  }
+
+  a {
+    color: #fff;
   }
 }
 
@@ -48,7 +56,7 @@
   position: relative;
 
   max-width: 50rem;
-  margin: 2.5rem auto 3rem auto;
+  margin: 2.5rem auto 0 auto;
   padding-top: 3rem;
 
   opacity: 1;
@@ -70,15 +78,4 @@
 
     background-color: #000000;
   }
-}
-
-.socialMediaLinks {
- a {
-   margin-right: 0.5rem;
-   margin-left: 0.5rem;
-
-   &:hover {
-     opacity: 0.5;
-   }
- }
 }

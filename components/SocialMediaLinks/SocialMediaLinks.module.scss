@@ -1,0 +1,17 @@
+@import '../../scss/sass-shit';
+
+.container {
+  @include ul-reset;
+
+  display: flex;
+  justify-content: center;
+
+  a {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

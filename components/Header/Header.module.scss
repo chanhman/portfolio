@@ -1,0 +1,19 @@
+@import '../../scss/sass-shit.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.nav {
+  @include ul-reset;
+
+  display: flex;
+
+  li {
+    margin-left: 1rem;
+  }
+}
