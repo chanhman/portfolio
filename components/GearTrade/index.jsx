@@ -29,17 +29,22 @@ const GearTrade = () => (
         alt=""
         caption="Lorem ipsum dolor sit amet"
       />
-      <Figure
-        src="/projects/gear-trade__wireframes-zoomed-out.png"
-        alt=""
-        caption="Lorem ipsum dolor sit amet"
-      />
     </ProjectTask>
 
     <ProjectTask
       name="Design"
       description="The website needed an updated look to help create more confidence for their customers. A minimalist design was implemented to make sure the products stood out."
     >
+      <Figure
+        src="/projects/gear-trade__mobile-designs.png"
+        alt=""
+        caption="Lorem ipsum dolor sit amet"
+      />
+      <Figure
+        src="/projects/gear-trade__design-system.png"
+        alt=""
+        caption="Lorem ipsum dolor sit amet"
+      />
     </ProjectTask>
   </section>
 )
