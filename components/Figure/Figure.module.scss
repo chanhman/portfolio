@@ -1,0 +1,21 @@
+.container {
+  &:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+}
+
+.img {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+
+  border: 0.0625rem solid #f1f1f1;
+}
+
+.caption {
+  margin-top: 1rem;
+
+  font-size: 0.875rem;
+
+  opacity: 0.5;
+}
