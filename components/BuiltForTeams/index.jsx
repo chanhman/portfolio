@@ -44,7 +44,17 @@ const BuiltForTeams = () => (
       description="I designed the native application dedicated to making PTO requests. I designed a high fidelity prototype for developers so they would have a clear understanding of how things should behave."
     >
       <Figure
-        src="/projects/built__mobile.png"
+        src="/projects/built__mobile-more-options.png"
+        alt=""
+        caption="Lorem ipsum dolor sit amet"
+      />
+      <Figure
+        src="/projects/built__mobile-notifications.png"
+        alt=""
+        caption="Lorem ipsum dolor sit amet"
+      />
+      <Figure
+        src="/projects/built__mobile-delete.png"
         alt=""
         caption="Lorem ipsum dolor sit amet"
       />
