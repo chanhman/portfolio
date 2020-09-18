@@ -8,7 +8,7 @@ const CaseStudyThumbnails = () => (
       <li className={styles.thumbnail}>
         <Link href="/case-studies/built-for-teams">
           <div>
-            <img src="http://placekitten.com/g/300/200" alt=""/>
+            <img src="projects/case-study-thumb__built-for-teams.svg" alt=""/>
             <h3 className={styles.name}>Built for Teams</h3>
           </div>
         </Link>
@@ -16,7 +16,7 @@ const CaseStudyThumbnails = () => (
       <li className={styles.thumbnail}>
         <Link href="/case-studies/gear-trade">
           <div>
-            <img src="http://placekitten.com/g/300/200" alt=""/>
+            <img src="projects/case-study-thumb__gear-trade.svg" alt=""/>
             <h3 className={styles.name}>GearTrade</h3>
           </div>
         </Link>
