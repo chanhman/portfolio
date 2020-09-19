@@ -1,6 +1,7 @@
 a {
   color: #000;
   text-decoration-color: #3498db;
+  transition: all 0.10s ease-in-out;
 
   &:hover,
   &:visited:hover {
