@@ -1,10 +1,12 @@
 import ProjectIntro from 'components/ProjectIntro'
 import ProjectTask from 'components/ProjectTask'
 import Figure from 'components/Figure'
+import BackToTop from 'components/BackToTop'
 import styles from './BuiltForTeams.module.scss'
 
 const BuiltForTeams = () => (
-  <section className={styles.container}>
+  <>
+    <section className={styles.container}>
     <ProjectIntro
       name="Built for Teams"
       info="A product by Objective, Built for Teams provides a solution for viewing your entire organization with its Org Chart, tracking of PTO, and managing job applications."
@@ -81,6 +83,8 @@ const BuiltForTeams = () => (
       />
     </ProjectTask>
   </section>
+    <BackToTop/>
+  </>
 )
 
 export default BuiltForTeams
