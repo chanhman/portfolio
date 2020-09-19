@@ -41,6 +41,11 @@ const GearTrade = () => (
         caption="Lorem ipsum dolor sit amet"
       />
       <Figure
+        src="/projects/gear-trade__desktop-home.png"
+        alt=""
+        caption="Lorem ipsum dolor sit amet"
+      />
+      <Figure
         src="/projects/gear-trade__design-system.png"
         alt=""
         caption="Lorem ipsum dolor sit amet"
