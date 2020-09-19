@@ -2,7 +2,7 @@
 
 .container {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-bottom: 6rem;
   min-height: 100vh;
@@ -10,7 +10,6 @@
   padding-left: 3rem;
 
   color: #fff;
-  text-align: center;
 
   background-color: #000;
 
@@ -20,6 +19,12 @@
 
   a {
     color: #fff;
+  }
+}
+
+.inner {
+  @media (min-width: 48rem) {
+    max-width: calc(50vw - 6rem);
   }
 }
 
@@ -33,16 +38,13 @@
   @media (min-width: 48rem) {
     font-size: get-vw(6rem);
   }
-
-  @media (min-width: 64rem) {
-    font-size: get-vw(8rem);
-  }
 }
 
 .pronunciation {
-  margin-top: 0;
+  margin-top: 0.5rem;
   margin-bottom: 0;
 
+  font-size: 12px;
   font-weight: 700;
 
   opacity: 1;
@@ -54,10 +56,8 @@
 
 .description {
   position: relative;
-
-  max-width: 50rem;
-  margin: 2.5rem auto 0 auto;
-  padding-top: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 
   opacity: 1;
 

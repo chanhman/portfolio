@@ -1,16 +1,24 @@
 @import '../../scss/sass-shit.scss';
 
 .container {
-  padding-top: get-vw(5rem);
-  padding-bottom: get-vw(5rem);
-
-  text-align: center;
-
+  display: flex;
   background-color: #000;
 
   a {
-    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 50vw;
 
     color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #3498db;
+    }
   }
 }

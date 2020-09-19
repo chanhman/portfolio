@@ -3,9 +3,25 @@
 .container {
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-between;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+
+.logo {
+  cursor: pointer;
+
+  &:hover {
+    span {
+      color: #ff0000;
+    }
+  }
+
+  span {
+    color: #3498db;
+    transition: all 0.10s ease-in-out;
+  }
 }
 
 .nav {
@@ -14,6 +30,19 @@
   display: flex;
 
   li {
-    margin-left: 1rem;
+    margin-left: 1.25rem;
+  }
+
+  a {
+    display: block;
+
+    font-family: "Montserrat", sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      color: #3498db;
+    }
   }
 }
