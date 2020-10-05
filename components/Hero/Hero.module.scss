@@ -4,10 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 6rem;
+  margin-bottom: get-vw(6rem);
   min-height: 75vh;
-  padding-right: 3rem;
-  padding-left: 3rem;
+  padding: get-vw(6rem) 3rem;
 
   color: #fff;
 
