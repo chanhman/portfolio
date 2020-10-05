@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 6rem;
-  min-height: 100vh;
+  min-height: 75vh;
   padding-right: 3rem;
   padding-left: 3rem;
 
@@ -36,7 +36,7 @@
   line-height: 1;
 
   @media (min-width: 48rem) {
-    font-size: get-vw(6rem);
+    font-size: get-vw(5.5rem);
   }
 }
 

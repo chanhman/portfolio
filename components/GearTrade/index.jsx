@@ -18,7 +18,7 @@ const GearTrade = () => (
 
       <ProjectTask
         name="User research"
-        description="Google Analytics was used to view the workflow before the redesign. Working with the client, we located the friction points and decided what needed to be improved before the release, and what could be reworked afterward."
+        description="Google Analytics and user tests were used to view the workflow before the redesign. Working with the client, we located the friction points and decided what needed to be improved before the release, and what could be reworked afterward."
       >
       </ProjectTask>
 
@@ -29,7 +29,7 @@ const GearTrade = () => (
         <Figure
           src="/projects/gear-trade__wireframes-zoomed-in.png"
           alt=""
-          caption="Lorem ipsum dolor sit amet"
+          caption="A preview of the 'Create a Post' workflow."
         />
       </ProjectTask>
 
@@ -40,17 +40,17 @@ const GearTrade = () => (
         <Figure
           src="/projects/gear-trade__mobile-designs.png"
           alt=""
-          caption="Lorem ipsum dolor sit amet"
+          caption="The homepage mobile design."
         />
         <Figure
           src="/projects/gear-trade__desktop-home.png"
           alt=""
-          caption="Lorem ipsum dolor sit amet"
+          caption="The homepage desktop design."
         />
         <Figure
           src="/projects/gear-trade__design-system.png"
           alt=""
-          caption="Lorem ipsum dolor sit amet"
+          caption="A sample of the style components that was created."
         />
       </ProjectTask>
     </section>
