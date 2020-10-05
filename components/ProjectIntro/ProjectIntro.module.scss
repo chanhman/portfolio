@@ -4,9 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: get-vw(10rem);
+  margin-bottom: get-vw(6rem);
 
-  padding: get-vw(10rem) 3rem;
+  padding: get-vw(6rem) 3rem;
 
   @media (min-width: 64rem) {
     padding-right: get-vw(5rem);
