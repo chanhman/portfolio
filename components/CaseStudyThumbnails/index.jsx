@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './CaseStudyThumbnails.module.scss'
 
 const CaseStudyThumbnails = () => (
-  <div className={styles.container}>
+  <section className={styles.container} id="case-study">
     <h2 className={styles.heading}>Case Studies</h2>
     <ul className={styles.thumbnails}>
       <li className={styles.thumbnail}>
@@ -22,7 +22,7 @@ const CaseStudyThumbnails = () => (
         </Link>
       </li>
     </ul>
-  </div>
+  </section>
 )
 
 export default CaseStudyThumbnails

@@ -13,3 +13,23 @@
 
   list-style-type: none;
 }
+
+@mixin container {
+  padding: $section-vertical-padding 3rem;
+
+  @media (min-width: 64rem) {
+    padding-right: $section-horizontal-padding;
+    padding-left: $section-horizontal-padding;
+  }
+
+  // @media (min-width: 64rem) {
+  //   padding-top: 0;
+  //   padding-bottom: 0;
+  // }
+}
+
+@mixin section-header  {
+  @include h6;
+
+  text-align: center;
+}

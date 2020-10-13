@@ -1,17 +1,12 @@
 @import '../../scss/sass-shit';
 
 .container {
+  @include container;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: get-vw(6rem);
-
-  padding: get-vw(6rem) 3rem;
-
-  @media (min-width: 64rem) {
-    padding-right: get-vw(5rem);
-    padding-left: get-vw(5rem);
-  }
+  margin-bottom: $section-vertical-padding;
 
   color: #fff;
 
@@ -19,8 +14,6 @@
 
   @media (min-width: 64rem) {
     height: 65vh;
-    padding-top: 0;
-    padding-bottom: 0;
   }
 }
 

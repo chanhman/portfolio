@@ -9,12 +9,12 @@ const Header = () => (
     <nav>
       <ul className={styles.nav}>
         <li>
-          <Link href="/">
+          <Link href="/#case-study">
             <a>Case Studies</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/#about">
             <a>About</a>
           </Link>
         </li>

@@ -1,0 +1,95 @@
+@import '../../scss/sass-shit';
+
+.container {
+  @include container;
+
+  color: #fff;
+
+  background-color: #000;
+
+  @media (min-width: 64rem) {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  a {
+    color: #fff;
+
+    &:visited {
+      color: #fff;
+    }
+  }
+}
+
+
+.bio,
+.image,
+.stats {
+  grid-row-start: 1;
+}
+
+.image {
+  position: relative;
+  align-self: start;
+  grid-column: 1 / 5;
+
+  &::before {
+    content: '';
+
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid #ff0000;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.bio {
+  z-index: 1;
+
+  @media (min-width: 64rem) {
+    display: grid;
+    align-self: start;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 4 / 10;
+  }
+
+  > div {
+    grid-column: 4 / -2;
+  }
+}
+
+.heading {
+  grid-column: 2 / -1;
+  margin-top: 5rem;
+  margin-bottom: 0;
+
+  font-size: get-vw(3rem);
+}
+
+.stats {
+  grid-column: -4 / -1;
+
+  ul {
+    @include ul-reset;
+
+    margin-bottom: 2rem;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.subheadings {
+  margin-top: 0;
+}
+

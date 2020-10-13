@@ -1,7 +1,7 @@
 @import '../../scss/sass-shit';
 
 .container {
-  margin-bottom: 6.25vw;
+  margin-bottom: $section-vertical-margin;
 }
 
 .heading {
@@ -14,7 +14,7 @@
   @include ul-reset;
 
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 0.0625rem;
   padding-right: 3rem;
   padding-left: 3rem;
 

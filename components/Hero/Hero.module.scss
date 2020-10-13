@@ -4,9 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: get-vw(6rem);
+  margin-bottom: $section-vertical-margin;
   min-height: 75vh;
-  padding: get-vw(6rem) 3rem;
+  padding: $section-vertical-padding 3rem;
 
   color: #fff;
 
