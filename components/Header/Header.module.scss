@@ -10,6 +10,10 @@
 
   background-color: #000;
   border-bottom: 0.0625rem solid #222;
+
+  @media print {
+    display: none;
+  }
 }
 
 .logo {

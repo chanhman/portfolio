@@ -14,6 +14,11 @@
   list-style-type: none;
 }
 
+@mixin margin-v-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 @mixin container {
   padding: $section-vertical-padding 3rem;
 
@@ -21,11 +26,6 @@
     padding-right: $section-horizontal-padding;
     padding-left: $section-horizontal-padding;
   }
-
-  // @media (min-width: 64rem) {
-  //   padding-top: 0;
-  //   padding-bottom: 0;
-  // }
 }
 
 @mixin section-header  {

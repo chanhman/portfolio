@@ -1,0 +1,131 @@
+@import '../../scss/sass-shit.scss';
+
+.container {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 3fr 1fr;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: $section-vertical-padding;
+  padding-bottom: $section-vertical-padding;
+
+  @media print {
+    padding-right: $section-horizontal-padding;
+    padding-left: $section-horizontal-padding;
+  }
+}
+
+.header {
+  grid-column: 1 / -1;
+  margin-bottom: 2rem;
+
+  @media print {
+    margin-bottom: 0;
+  }
+}
+
+.title {
+  @include margin-v-reset;
+
+  font-size: get-vw(3rem);
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.heading {
+  position: relative;
+
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+
+  @media print {
+    font-size: 0.625rem;
+  }
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.125rem;
+    width: 1.5rem;
+
+    background-color: #000;
+
+    @media print {
+      border-top: 2px solid black;
+    }
+  }
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  @media print {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+  }
+}
+
+.subsection {
+  margin-bottom: 2rem;
+}
+
+.info {
+  opacity: 0.65;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    @include margin-v-reset;
+
+    @media print {
+      font-size: 11px;
+    }
+  }
+}
+
+.role {
+  padding-left: 2rem;
+
+  list-style-type: square;
+
+  li {
+    line-height: 1.6;
+
+    @media print {
+      font-size: 11px;
+    }
+  }
+}
+
+.aside {
+  ul {
+    @include ul-reset;
+  }
+
+  li {
+    line-height: 1.6;
+
+    @media print {
+      font-size: 11px;
+    }
+  }
+
+  p {
+    @include margin-v-reset;
+
+    @media print {
+      font-size: 11px;
+    }
+  }
+}

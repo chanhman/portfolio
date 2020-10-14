@@ -3,7 +3,7 @@ import Hero from 'components/Hero'
 import CaseStudyThumbnails from 'components/CaseStudyThumbnails'
 import About from 'components/About'
 
-const Home = () => (
+const Homepage = () => (
   <Layout>
     <Hero/>
     <CaseStudyThumbnails/>
@@ -11,4 +11,4 @@ const Home = () => (
   </Layout>
 )
 
-export default Home
+export default Homepage
