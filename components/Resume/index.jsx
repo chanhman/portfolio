@@ -63,7 +63,7 @@ const Resume = () => (
       <div className={styles.subsection}>
         <h2 className={styles.heading}>Contact</h2>
         <ul>
-          <li><a href="https://chabnh.design">chanh.design</a></li>
+          <li><a href="https://chanh.design">chanh.design</a></li>
           <li><a href="mailto:hello@chanh.design">hello@chanh.design</a></li>
           <li><a href="https://www.linkedin.com/in/chanh-nguyen-8ab501b8">LinkedIn</a></li>
         </ul>
@@ -74,6 +74,9 @@ const Resume = () => (
         <ul>
           <li>Sketch</li>
           <li>Figma</li>
+          <li>UI</li>
+          <li>Visual Design</li>
+          <li>Responsive Web Design</li>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
