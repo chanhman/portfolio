@@ -23,21 +23,22 @@ const About = () => (
         </ul>
       </div>
       <div>
+        <h3 className={styles.subheading}>Skills</h3>
+        <ul>
+          <li>Sketch</li>
+          <li>Figma</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <div>
         <h3 className={styles.subheading}>Contact</h3>
         <ul>
           <li><a href="mailto:hello@chanh.design">hello@chanh.design</a></li>
           <li><a href="https://www.linkedin.com/in/chanh-nguyen-8ab501b8">LinkedIn</a></li>
           <li><a href="https://www.instagram.com/chanhlemonlime/">Instagram</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 className={styles.subheading}>Skills</h3>
-        <ul>
-          <li>Sketch</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
         </ul>
       </div>
     </div>
