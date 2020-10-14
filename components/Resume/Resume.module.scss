@@ -1,14 +1,18 @@
 @import '../../scss/sass-shit.scss';
 
 .container {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: 3fr 1fr;
-  max-width: 1280px;
+  max-width: 80rem;
   margin-right: auto;
   margin-left: auto;
-  padding-top: $section-vertical-padding;
-  padding-bottom: $section-vertical-padding;
+  padding: $section-vertical-padding;
+
+  @media (min-width: 64rem) {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 3fr 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   @media print {
     padding-right: $section-horizontal-padding;
