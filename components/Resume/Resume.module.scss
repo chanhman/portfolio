@@ -1,5 +1,9 @@
 @import '../../scss/sass-shit.scss';
 
+@page {
+  margin: 0;
+}
+
 .container {
   max-width: 80rem;
   margin-right: auto;
@@ -10,13 +14,15 @@
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 3fr 1fr;
-    padding-left: 0;
-    padding-right: 0;
   }
 
   @media print {
-    padding-right: $section-horizontal-padding;
-    padding-left: $section-horizontal-padding;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 3fr 1fr;
+    padding: 2.25cm;
+    height: 100vh;
+    border: 0.75rem solid black;
   }
 }
 
