@@ -22,7 +22,7 @@ const BuiltForTeams = () => (
         <Figure
           src="/projects/built__design-system.png"
           alt=""
-          caption="A sample of the style components that was created."
+          caption="Style components that was created."
         />
         <Figure
           src="/projects/built__kiln-forms.png"
@@ -48,17 +48,17 @@ const BuiltForTeams = () => (
         <Figure
           src="/projects/built__mobile-more-options.png"
           alt=""
-          caption="A sample of the workflow to add someone to cover for you when you take PTO."
+          caption="Workflow to add a person to cover your shift."
         />
         <Figure
           src="/projects/built__mobile-notifications.png"
           alt=""
-          caption="Lorem ipsum dolor sit amet"
+          caption="Workflow to add more people to send a notification."
         />
         <Figure
           src="/projects/built__mobile-delete.png"
           alt=""
-          caption="Lorem ipsum dolor sit amet"
+          caption="Workflow to delete a PTO request."
         />
       </ProjectTask>
 
