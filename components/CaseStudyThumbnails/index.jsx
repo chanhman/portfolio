@@ -1,8 +1,27 @@
+import { motion } from 'framer-motion'
 import Link from 'next/link'
 import styles from './CaseStudyThumbnails.module.scss'
 
 const CaseStudyThumbnails = () => (
-  <section className={styles.container} id="case-study">
+  <motion.section
+    className={styles.container}
+    id="case-study"
+    initial="hidden"
+    animate="visible"
+    variants={{
+      hidden: {
+        opacity: 0,
+        y: -30
+      },
+      visible: {
+        opacity: 1,
+        transition: {
+          delay: .5
+        },
+        y: 0
+      },
+    }}
+  >
     <h2 className={styles.heading}>Case Studies</h2>
     <ul className={styles.thumbnails}>
       <li className={styles.thumbnail}>
@@ -22,7 +41,7 @@ const CaseStudyThumbnails = () => (
         </Link>
       </li>
     </ul>
-  </section>
+  </motion.section>
 )
 
 export default CaseStudyThumbnails

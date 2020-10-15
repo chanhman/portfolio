@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import ProjectIntro from 'components/ProjectIntro'
 import ProjectTask from 'components/ProjectTask'
 import Figure from 'components/Figure'
@@ -14,7 +15,26 @@ const GearTrade = () => (
         role="I redesigned the website and designed a new workflow for creating new posts by designing wireframes and creating high-fidelity prototypes. I was also responsible for developing the designs."
       />
 
-      <h2 className={styles.subheading}>Tasks</h2>
+      <motion.h2
+        className={styles.subheading}
+        initial="hidden"
+        animate="visible"
+        variants={{
+          hidden: {
+            opacity: 0,
+            y: -10
+          },
+          visible: {
+            opacity: 1,
+            transition: {
+              delay: .5
+            },
+            y: 0
+          },
+        }}
+      >
+        Tasks
+      </motion.h2>
 
       <ProjectTask
         name="User research"
@@ -54,7 +74,7 @@ const GearTrade = () => (
         />
       </ProjectTask>
     </section>
-    <BackToTop/>
+    <BackToTop />
   </>
 )
 

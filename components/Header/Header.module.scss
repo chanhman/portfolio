@@ -1,19 +1,21 @@
 @import '../../scss/sass-shit.scss';
 
 .container {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-right: 2rem;
-  padding-left: 2rem;
-
   background-color: #000;
   border-bottom: 0.0625rem solid #222;
 
   @media print {
     display: none;
   }
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .logo {
@@ -50,6 +52,10 @@
     text-align: right;
     text-transform: uppercase;
     text-decoration: none;
+
+    &:visited {
+      color: #fff;
+    }
 
     &:hover {
       color: #3498db;

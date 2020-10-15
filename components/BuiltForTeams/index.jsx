@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import ProjectIntro from 'components/ProjectIntro'
 import ProjectTask from 'components/ProjectTask'
 import Figure from 'components/Figure'
@@ -13,7 +14,26 @@ const BuiltForTeams = () => (
         role="I collaborate with designers and developers by helping with the design process and front-end development. My role ranges from doing user research to designing and developing new features."
       />
 
-      <h2 className={styles.subheading}>Projects</h2>
+      <motion.h2
+        className={styles.subheading}
+        initial="hidden"
+        animate="visible"
+        variants={{
+          hidden: {
+            opacity: 0,
+            y: -10
+          },
+          visible: {
+            opacity: 1,
+            transition: {
+              delay: .5
+            },
+            y: 0
+          },
+        }}
+      >
+        Projects
+      </motion.h2>
 
       <ProjectTask
         name="Design System"
@@ -63,27 +83,27 @@ const BuiltForTeams = () => (
       </ProjectTask>
 
       <ProjectTask
-      name="Web App"
-      description="I redesigned and developed an updated version of the web app. While writing clean HTML and CSS, I took the opportunity to make the web app responsive. I helped our junior designers by critiquing their work and giving feedback. I also designed, developed, and tested new features."
-    >
-      <Figure
-        src="/projects/built__job.png"
-        alt=""
-        caption="Lorem ipsum dolor sit amet"
-      />
-      <Figure
-        src="/projects/built__profile.png"
-        alt=""
-        caption="Lorem ipsum dolor sit amet"
-      />
-      <Figure
-        src="/projects/built__pto.png"
-        alt=""
-        caption="Lorem ipsum dolor sit amet"
-      />
-    </ProjectTask>
+        name="Web App"
+        description="I redesigned and developed an updated version of the web app. While writing clean HTML and CSS, I took the opportunity to make the web app responsive. I helped our junior designers by critiquing their work and giving feedback. I also designed, developed, and tested new features."
+      >
+        <Figure
+          src="/projects/built__job.png"
+          alt=""
+          caption="Lorem ipsum dolor sit amet"
+        />
+        <Figure
+          src="/projects/built__profile.png"
+          alt=""
+          caption="Lorem ipsum dolor sit amet"
+        />
+        <Figure
+          src="/projects/built__pto.png"
+          alt=""
+          caption="Lorem ipsum dolor sit amet"
+        />
+      </ProjectTask>
     </section>
-    <BackToTop/>
+    <BackToTop />
   </>
 )
 
