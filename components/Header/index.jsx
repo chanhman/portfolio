@@ -26,7 +26,11 @@ const Header = () => {
         variants={motionVariants}
       >
         <Link href="/">
-          <h1 className={styles.logo}>C<span>.</span></h1>
+          <a className={styles.logo}>
+            <h1>
+              C<span>.</span>
+            </h1>
+          </a>
         </Link>
         <nav>
           <ul className={styles.nav}>

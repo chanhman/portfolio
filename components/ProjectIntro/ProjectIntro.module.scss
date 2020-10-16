@@ -17,6 +17,10 @@
   }
 }
 
+.heading {
+  @include h6;
+}
+
 .inner {
   display: grid;
   grid-gap: get-vw(2.5rem);
@@ -30,7 +34,7 @@
   }
 }
 
-.heading {
+.title {
   margin-top: 0;
   margin-bottom: 1.5rem;
 
@@ -42,7 +46,7 @@
   }
 }
 
-.subheading {
+.subtitle {
   margin-top: 0;
 
   font-size: 1rem;

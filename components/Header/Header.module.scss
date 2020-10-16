@@ -19,19 +19,23 @@
 }
 
 .logo {
-  color: #fff;
+  text-decoration: none;
 
   cursor: pointer;
 
-  &:hover {
-    span {
-      color: #ff0000;
+  h1 {
+    color: #fff;
+
+    &:hover {
+      span {
+        color: #ff0000;
+      }
     }
   }
 
   span {
     color: #3498db;
-    transition: all 0.10s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
 }
 
@@ -48,7 +52,7 @@
     display: block;
 
     color: #fff;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: right;
     text-transform: uppercase;
     text-decoration: none;

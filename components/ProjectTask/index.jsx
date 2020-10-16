@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import Gallery from 'components/Gallery'
 import styles from './ProjectTask.module.scss'
 
-const ProjectTask = ({ name, description, children }) => {
+const ProjectTask = ({ title, description, children }) => {
   const motionVariants = {
     hidden: {
       opacity: 0,
@@ -25,7 +25,7 @@ const ProjectTask = ({ name, description, children }) => {
       variants={motionVariants}
     >
       <div className={styles.header}>
-        <h4 className={styles.heading}>{name}</h4>
+        <h4 className={styles.heading}>{title}</h4>
         <div className={styles.description}>
           <p>{description}</p>
         </div>
