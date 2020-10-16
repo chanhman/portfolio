@@ -89,17 +89,17 @@ const BuiltForTeams = () => (
         <Figure
           src="/projects/built__job.png"
           alt=""
-          caption="Lorem ipsum dolor sit amet"
+          caption="Job application"
         />
         <Figure
           src="/projects/built__profile.png"
           alt=""
-          caption="Lorem ipsum dolor sit amet"
+          caption="Profile page"
         />
         <Figure
           src="/projects/built__pto.png"
           alt=""
-          caption="Lorem ipsum dolor sit amet"
+          caption="PTO page"
         />
       </ProjectTask>
     </section>
