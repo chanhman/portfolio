@@ -11,19 +11,21 @@ import '../scss/_p.scss';
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps, router }) {
+  const motionVariants = {
+    pageInitial: {
+      opacity: 0,
+    },
+    pageAnimate: {
+      opacity: 1,
+    },
+  }
+
   return (
     <motion.div
       key={router.route}
       initial='pageInitial'
       animate='pageAnimate'
-      variants={{
-        pageInitial: {
-          opacity: 0,
-        },
-        pageAnimate: {
-          opacity: 1,
-        },
-      }}
+      variants={motionVariants}
     >
       <Component {...pageProps} />
     </motion.div>
