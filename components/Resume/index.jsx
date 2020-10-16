@@ -72,8 +72,8 @@ const Resume = () => (
       <div className={styles.subsection}>
         <h2 className={styles.heading}>Skills</h2>
         <ul>
-          <li>Sketch</li>
           <li>Figma</li>
+          <li>Sketch</li>
           <li>UI</li>
           <li>Visual Design</li>
           <li>Responsive Web Design</li>
@@ -81,6 +81,7 @@ const Resume = () => (
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
+          <li>Git</li>
         </ul>
       </div>
 

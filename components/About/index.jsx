@@ -29,12 +29,16 @@ const About = () => (
       <div>
         <h3 className={styles.subheading}>Skills</h3>
         <ul>
-          <li>Sketch</li>
           <li>Figma</li>
+          <li>Sketch</li>
+          <li>UI</li>
+          <li>Visual Design</li>
+          <li>Responsive Web Design</li>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
+          <li>Git</li>
         </ul>
       </div>
       <div>
