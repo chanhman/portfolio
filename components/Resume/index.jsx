@@ -4,7 +4,7 @@ const Resume = () => (
   <section className={styles.container}>
     <header className={styles.header}>
       <h1 className={styles.title}>Chanh Nguyen</h1>
-      <p className={styles.subtitle}>Front-end developer &amp; designer</p>
+      <p className={styles.subtitle}>Designer &amp; Front-end Developer</p>
     </header>
 
     <div>
