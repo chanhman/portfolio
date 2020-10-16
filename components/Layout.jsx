@@ -1,19 +1,27 @@
 import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 import Header from 'components/Header'
 
 const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Chanh Nguyen / Designer and Front-end Developer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap" rel="stylesheet"/>
-        <meta property="og:title" content="Chanh Nguyen / Designer and Front-end Developer"></meta>
-        <meta itemprop="description" content="Chanh Nguyen is a designer and front-end developer in Salt Lake City."></meta>
-        <meta property="og:url" content="https://chanh.design"></meta>
-        <meta property="og:image" content="https://chanh.design/og.png"></meta>
-        <meta property="og:type" content="website"></meta>
       </Head>
+
+      <NextSeo
+        title="Chanh Nguyen / Designer and Front-end Developer"
+        description="Chanh Nguyen is a designer and front-end developer in Salt Lake City."
+        openGraph={{
+          url: "https://chanh.design",
+          description: "Chanh Nguyen is a designer and front-end developer in Salt Lake City.",
+          images: [
+            { url: "https://chanh.design/og.png" },
+          ],
+          type: "website",
+        }}
+      />
 
       <Header></Header>
 
