@@ -9,7 +9,7 @@ const About = () => (
     <div className={styles.bio}>
       <h2 className={styles.heading}>About</h2>
       <div>
-        <p>I am a Salt Lake City based front-end developer and designer with over 12 years of experience. My background ranges from working for niche shops to software companies. This has made me comfortable with working on various types of projects, like native and web apps, and collaborating with clients, designers, and developers.</p>
+        <p>I am a Salt Lake City based designer and front-end developer with over 12 years of experience. My background ranges from working for niche shops to software companies. This has made me comfortable with working on various types of projects, like native and web apps, and collaborating with clients, designers, and developers.</p>
         <p>Outside of work, I take advantage of living in Utah by hiking, running, and skiing. I am always trying to improve my skills so I can be found training for an ultra run, seeing if Figma really is better than Sketch, or watching YouTube videos on JavaScript.</p>
         <Link href="resume">
           <a className="styles">View résumé</a>
@@ -20,7 +20,7 @@ const About = () => (
       <div>
         <h3 className={styles.subheading}>Experience</h3>
         <ul>
-          <li>Front-end developer at Objective</li>
+          <li>Designer and front-end developer at Objective</li>
           <li>Product designer at Leadformance</li>
           <li>Web designer at Silverpoint</li>
           <li>Junior web designer at carbonhouse</li>
