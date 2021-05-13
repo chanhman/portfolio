@@ -10,7 +10,7 @@ const Resume = () => (
     <div>
       <h2 className={styles.heading}>Experience</h2>
       <div className={styles.subsection}>
-        <h3 className={styles.name}>Objective</h3>
+        <h3 className={styles.name}>Objective Inc.</h3>
         <div className={styles.info}>
           <p className={styles.date}>Aug 2015 - Present</p>
           <p className={styles.position}>Designer and front-end developer</p>
