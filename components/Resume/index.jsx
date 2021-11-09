@@ -47,7 +47,7 @@ const Resume = () => (
         <h3 className={styles.name}>Leadformance</h3>
         <div className={styles.info}>
           <p className={styles.date}>Oct 2010 - Apr 2015</p>
-          <p className={styles.position}>Product designer</p>
+          <p className={styles.position}>Product Designer</p>
           <p className={styles.location}>Chambéry, France</p>
         </div>
         <ul className={styles.role}>
@@ -72,7 +72,7 @@ const Resume = () => (
           <h3 className={styles.name}>Silverpoint</h3>
           <div className={styles.info}>
             <p className={styles.date}>Apr 2008 - Sep 2010</p>
-            <p className={styles.position}>Web designer</p>
+            <p className={styles.position}>Web Designer</p>
             <p className={styles.location}>Baltimore, MD</p>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Resume = () => (
           <h3 className={styles.name}>carbonhouse</h3>
           <div className={styles.info}>
             <p className={styles.date}>2007 -2008</p>
-            <p className={styles.position}>Junior web designer</p>
+            <p className={styles.position}>Junior Web Designer</p>
             <p className={styles.location}>Charlotte, NC</p>
           </div>
         </div>
