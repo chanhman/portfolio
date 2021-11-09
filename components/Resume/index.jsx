@@ -16,7 +16,7 @@ const Resume = () => (
           <p className={styles.position}>Front-end Developer &amp; Designer</p>
           <p className={styles.location}>Salt Lake City, Utah</p>
         </div>
-        <h4>Front-end</h4>
+        <h4>Front-end Developer</h4>
         <ul className={styles.role}>
           <li>
             Implement semantic, well-structured HTML and CSS for projects;
