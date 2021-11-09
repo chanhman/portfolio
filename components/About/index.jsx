@@ -30,7 +30,7 @@ const About = () => (
           than Sketch, or watching YouTube videos on JavaScript.
         </p>
         <Link href="resume">
-          <a className="styles">View résumé</a>
+          <a>View résumé</a>
         </Link>
       </div>
     </div>
