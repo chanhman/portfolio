@@ -29,15 +29,21 @@ const CaseStudyThumbnails = () => {
       <ul className={styles.thumbnails}>
         <li className={styles.thumbnail}>
           <Link href="/case-studies/built-for-teams">
-            <a>
-              <img src="projects/case-study-thumb__built-for-teams.svg" alt="" />
+            <a aria-label="View the Built for Teams case study">
+              <img
+                src="projects/case-study-thumb__built-for-teams.svg"
+                alt="Built for Teams logo"
+              />
             </a>
           </Link>
         </li>
         <li className={styles.thumbnail}>
           <Link href="/case-studies/gear-trade">
-            <a>
-              <img src="projects/case-study-thumb__gear-trade.svg" alt="" />
+            <a aria-label="View the GearTrade case study">
+              <img
+                src="projects/case-study-thumb__gear-trade.svg"
+                alt="GearTrade logo"
+              />
             </a>
           </Link>
         </li>
