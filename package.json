@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@svgr/webpack": "^5.4.0",
     "framer-motion": "^2.9.1",
     "next": "9.4.4",
     "next-seo": "^4.13.0",
