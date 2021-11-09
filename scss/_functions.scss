@@ -1,7 +1,8 @@
+@use 'sass:math';
 $vw-viewport: 1280;
 
 @function get-vw($font){
   $vw-context: $vw-viewport * 0.01 * 0.0625rem;
-  @return $font / $vw-context * 1vw;
+  @return math.div($font, $vw-context) * 1vw;
   @return $font;
 }
