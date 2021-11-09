@@ -4,7 +4,7 @@ const Resume = () => (
   <section className={styles.container}>
     <header className={styles.header}>
       <h1 className={styles.title}>Chanh Nguyen</h1>
-      <p className={styles.subtitle}>Designer &amp; Front-end Developer</p>
+      <p className={styles.subtitle}>Front-end Developer &amp; Designer</p>
     </header>
 
     <div>
@@ -13,14 +13,33 @@ const Resume = () => (
         <h3 className={styles.name}>Objective Inc.</h3>
         <div className={styles.info}>
           <p className={styles.date}>Aug 2015 - Present</p>
-          <p className={styles.position}>Designer and front-end developer</p>
+          <p className={styles.position}>Front-end Developer &amp; Designer</p>
           <p className={styles.location}>Salt Lake City, Utah</p>
         </div>
+        <h4>Front-end</h4>
         <ul className={styles.role}>
-          <li>Design and develop products to fulfill clients’ needs, in partnership with the clients, project managers, and developers;</li>
-          <li>Validate business models, user experiences, and ideas by using prototyping tools such as InVision, Sketch, and HTML and CSS;</li>
-          <li>Implement semantic, well-structured HTML and CSS for projects as well as help my colleagues understand and learn best practices; and</li>
-          <li>Develop designs using various frameworks such as Bootstrap, React, and Ruby on Rails;</li>
+          <li>
+            Implement semantic, well-structured HTML and CSS for projects;
+          </li>
+          <li>Develop reusable UI components using libraries such as React;</li>
+          <li>
+            Ensure cross browser compatibility using the latest optimization
+            techniques;
+          </li>
+          <li>
+            Help my colleagues understand and learn front-end best practices;
+          </li>
+        </ul>
+        <h4>Designer</h4>
+        <ul className={styles.role}>
+          <li>
+            Design and develop products to fulfill clients’ needs, in
+            partnership with the clients, project managers, and developers;
+          </li>
+          <li>
+            Validate business models, user experiences, and ideas by using
+            prototyping tools such as InVision, Sketch, and HTML and CSS;
+          </li>
         </ul>
       </div>
 
@@ -32,9 +51,19 @@ const Resume = () => (
           <p className={styles.location}>Chambéry, France</p>
         </div>
         <ul className={styles.role}>
-          <li>Collaborated with developers, the support team, and the product director to understand business requirements and improve the user experience for our products;</li>
-          <li>Created workflows, wireframes, and concepts for desktop, tablet, and mobile devices; and</li>
-          <li>Tested new features to ensure they match final designs, function on the required devices, and solve the issue at hand;</li>
+          <li>
+            Collaborated with developers, the support team, and the product
+            director to understand business requirements and improve the user
+            experience for our products;
+          </li>
+          <li>
+            Created workflows, wireframes, and concepts for desktop, tablet, and
+            mobile devices; and
+          </li>
+          <li>
+            Tested new features to ensure they match final designs, function on
+            the required devices, and solve the issue at hand;
+          </li>
         </ul>
       </div>
 
@@ -63,9 +92,17 @@ const Resume = () => (
       <div className={styles.subsection}>
         <h2 className={styles.heading}>Contact</h2>
         <ul>
-          <li><a href="https://chanh.design">chanh.design</a></li>
-          <li><a href="mailto:hello@chanh.design">hello@chanh.design</a></li>
-          <li><a href="https://www.linkedin.com/in/chanh-nguyen-8ab501b8">LinkedIn</a></li>
+          <li>
+            <a href="https://chanh.design">chanh.design</a>
+          </li>
+          <li>
+            <a href="mailto:hello@chanh.design">hello@chanh.design</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/chanh-nguyen-8ab501b8">
+              LinkedIn
+            </a>
+          </li>
         </ul>
       </div>
 

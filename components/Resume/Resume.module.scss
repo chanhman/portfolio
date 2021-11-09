@@ -20,7 +20,7 @@
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 3fr 1fr;
-    padding: 2.25cm;
+    padding: 2cm;
     height: 100vh;
     border: 0.75rem solid black;
   }
@@ -116,6 +116,11 @@
       font-size: 11px;
     }
   }
+}
+
+.oldExperience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .aside {
