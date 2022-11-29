@@ -10,9 +10,33 @@ const Resume = () => (
     <div>
       <h2 className={styles.heading}>Experience</h2>
       <div className={styles.subsection}>
+        <h3 className={styles.name}>Weedmaps</h3>
+        <div className={styles.info}>
+          <p className={styles.date}>Dec 2021 - Present</p>
+          <p className={styles.position}>Front-end Developer</p>
+          <p className={styles.location}>Salt Lake City, Utah (Remote)</p>
+        </div>
+        <ul className={styles.role}>
+          <li>
+            Work with project managers, developers, and designers to breakdown
+            features and ensure the requirements are clearly defined;
+          </li>
+          <li>
+            Help give feedback on pull requests and in design conversations;
+          </li>
+          <li>
+            Write clean code that follows current patterns and best practices;
+          </li>
+          <li>
+            Identify issues and work with colleagues to find the best methods to
+            address them;
+          </li>
+        </ul>
+      </div>
+      <div className={styles.subsection}>
         <h3 className={styles.name}>Objective Inc.</h3>
         <div className={styles.info}>
-          <p className={styles.date}>Aug 2015 - Present</p>
+          <p className={styles.date}>Aug 2015 - Dec 2021</p>
           <p className={styles.position}>Front-end Developer &amp; Designer</p>
           <p className={styles.location}>Salt Lake City, Utah</p>
         </div>
@@ -58,7 +82,7 @@ const Resume = () => (
           </li>
           <li>
             Created workflows, wireframes, and concepts for desktop, tablet, and
-            mobile devices; and
+            mobile devices;
           </li>
           <li>
             Tested new features to ensure they match final designs, function on
@@ -113,11 +137,14 @@ const Resume = () => (
           <li>Sketch</li>
           <li>UI</li>
           <li>Visual Design</li>
-          <li>Responsive Web Design</li>
           <li>HTML</li>
           <li>CSS</li>
+          <li>Styled-components</li>
           <li>JavaScript</li>
+          <li>Typescript</li>
           <li>React</li>
+          <li>Next.js</li>
+          <li>Cypress</li>
           <li>Git</li>
         </ul>
       </div>

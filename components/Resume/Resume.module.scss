@@ -18,9 +18,9 @@
 
   @media print {
     display: grid;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     grid-template-columns: 3fr 1fr;
-    padding: 2cm;
+    padding: 1.25cm;
     height: 100vh;
     border: 0.75rem solid black;
   }
@@ -39,6 +39,10 @@
   @include margin-v-reset;
 
   font-size: get-vw(3rem);
+
+  @media print {
+    font-size: get-vw(2.25rem);
+  }
 }
 
 .subtitle {
@@ -86,6 +90,10 @@
 
 .subsection {
   margin-bottom: 2rem;
+
+  @media print {
+    margin-bottom: 1rem;
+  }
 }
 
 .info {
