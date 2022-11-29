@@ -6,14 +6,14 @@ const Header = () => {
   const motionVariants = {
     hidden: {
       opacity: 0,
-      y: -30
+      y: -30,
     },
     visible: {
       opacity: 1,
       transition: {
-        delay: .2
+        delay: 0.2,
       },
-      y: 0
+      y: 0,
     },
   }
 
@@ -25,24 +25,18 @@ const Header = () => {
         animate="visible"
         variants={motionVariants}
       >
-        <Link href="/">
-          <a className={styles.logo}>
-            <h1>
-              C<span>.</span>
-            </h1>
-          </a>
+        <Link href="/" className={styles.logo}>
+          <h1>
+            C<span>.</span>
+          </h1>
         </Link>
         <nav>
           <ul className={styles.nav}>
             <li>
-              <Link href="/#case-study">
-                <a>Case Studies</a>
-              </Link>
+              <Link href="/#case-study">Case Studies</Link>
             </li>
             <li>
-              <Link href="/#about">
-                <a>About</a>
-              </Link>
+              <Link href="/#about">About</Link>
             </li>
           </ul>
         </nav>

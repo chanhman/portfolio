@@ -4,7 +4,7 @@ import styles from './BackToTop.module.scss'
 const BackToTop = () => (
   <section className={styles.container}>
     <Link href="/">
-      <a>Home</a>
+      Home
     </Link>
     <a href="#">Top</a>
   </section>
