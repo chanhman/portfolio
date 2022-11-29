@@ -141,7 +141,7 @@ const Resume = () => (
           <li>CSS</li>
           <li>Styled-components</li>
           <li>JavaScript</li>
-          <li>Typescript</li>
+          <li>TypeScript</li>
           <li>React</li>
           <li>Next.js</li>
           <li>Cypress</li>
