@@ -43,25 +43,25 @@ const Resume = () => (
         <h4>Front-end Developer</h4>
         <ul className={styles.role}>
           <li>
-            Implement semantic, well-structured HTML and CSS for projects;
+            Implemented semantic, well-structured HTML and CSS for projects;
           </li>
-          <li>Develop reusable UI components using libraries such as React;</li>
+          <li>Developed reusable UI components using libraries such as React;</li>
           <li>
-            Ensure cross browser compatibility using the latest optimization
+            Ensured cross browser compatibility using the latest optimization
             techniques;
           </li>
           <li>
-            Help my colleagues understand and learn front-end best practices;
+            Helped my colleagues understand and learn front-end best practices;
           </li>
         </ul>
         <h4>Designer</h4>
         <ul className={styles.role}>
           <li>
-            Design and develop products to fulfill clients’ needs, in
+            Designed and developed products to fulfill clients’ needs, in
             partnership with the clients, project managers, and developers;
           </li>
           <li>
-            Validate business models, user experiences, and ideas by using
+            Validated business models, user experiences, and ideas by using
             prototyping tools such as InVision, Sketch, and HTML and CSS;
           </li>
         </ul>
