@@ -19,17 +19,16 @@ const Resume = () => (
         <ul className={styles.role}>
           <li>
             Work with project managers, developers, and designers to breakdown
-            features and ensure the requirements are clearly defined;
+            features, ensure the requirements are clearly defined, and identify any issues;
           </li>
           <li>
-            Help give feedback on pull requests and in design conversations;
+            Give developers and designers feedback in pull requests and design conversations;
           </li>
           <li>
             Write clean code that follows current patterns and best practices;
           </li>
           <li>
-            Identify issues and work with colleagues to find the best methods to
-            address them;
+            Use modern web frameworks and tools such as Cypress, Next.js, and styled-components
           </li>
         </ul>
       </div>
