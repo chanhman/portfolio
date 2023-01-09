@@ -72,17 +72,13 @@ const Resume = () => (
         </div>
         <ul className={styles.role}>
           <li>
-            Collaborated with developers, the support team, and the product
-            director to understand business requirements and improve the user
-            experience for our products;
+            Worked closely with developers, the support team, and the product director to comprehend business requirements and enhance the user experience for our products through collaboration;
           </li>
           <li>
-            Created workflows, wireframes, and concepts for desktop, tablet, and
-            mobile devices;
+            Designed workflows, wireframes, and concepts for desktop, tablet, and mobile devices;
           </li>
           <li>
-            Tested new features to ensure they match final designs, function on
-            the required devices, and solve the issue at hand;
+           Verified that new features accurately match final designs, function correctly on required devices, and effectively address the intended issues through testing.
           </li>
         </ul>
       </div>
