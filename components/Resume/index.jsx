@@ -18,17 +18,16 @@ const Resume = () => (
         </div>
         <ul className={styles.role}>
           <li>
-            Work with project managers, developers, and designers to breakdown
-            features, ensure the requirements are clearly defined, and identify any issues;
+            Collaborate with project managers, developers, and designers to decompose features, clearly define requirements, and identify potential issues;
           </li>
           <li>
-            Give developers and designers feedback in pull requests and design conversations;
+            Provide feedback to developers and designers during pull request reviews and design discussions;
           </li>
           <li>
-            Write clean code that follows current patterns and best practices;
+            Create well-organized, efficient code that adheres to current design patterns and industry best practices;
           </li>
           <li>
-            Use modern web frameworks and tools such as Cypress, Next.js, and styled-components
+            Utilize modern web frameworks and tools including Cypress, Next.js, and styled-components.
           </li>
         </ul>
       </div>
@@ -42,26 +41,24 @@ const Resume = () => (
         <h4>Front-end Developer</h4>
         <ul className={styles.role}>
           <li>
-            Implemented semantic, well-structured HTML and CSS for projects;
+            Developed projects using semantic, well-organized HTML and CSS;
           </li>
-          <li>Developed reusable UI components using libraries such as React;</li>
+          <li>Created reusable UI components using React and similar libraries;</li>
           <li>
             Ensured cross browser compatibility using the latest optimization
             techniques;
           </li>
           <li>
-            Helped my colleagues understand and learn front-end best practices;
+            Assisted team members in learning and implementing front-end best practices.
           </li>
         </ul>
         <h4>Designer</h4>
         <ul className={styles.role}>
           <li>
-            Designed and developed products to fulfill clients’ needs, in
-            partnership with the clients, project managers, and developers;
+            Collaborated with clients, project managers, and developers to design and develop products that met clients' needs and requirements;
           </li>
           <li>
-            Validated business models, user experiences, and ideas by using
-            prototyping tools such as InVision, Sketch, and HTML and CSS;
+            Utilized prototyping tools such as InVision, Sketch, and HTML/CSS to validate business models, user experiences, and ideas.
           </li>
         </ul>
       </div>
