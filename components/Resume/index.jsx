@@ -13,7 +13,7 @@ const Resume = () => (
         <h3 className={styles.name}>Weedmaps</h3>
         <div className={styles.info}>
           <p className={styles.date}>Dec 2021 - Present</p>
-          <p className={styles.position}>Front-end Developer</p>
+          <p className={styles.position}>Software Engineer II (Front-end)</p>
           <p className={styles.location}>Salt Lake City, Utah (Remote)</p>
         </div>
         <ul className={styles.role}>
