@@ -138,12 +138,14 @@ const Resume = () => (
           <li>Visual Design</li>
           <li>HTML</li>
           <li>CSS</li>
-          <li>Styled-components</li>
+          <li>Storybook</li>
+          <li>styled-components</li>
           <li>JavaScript</li>
           <li>TypeScript</li>
           <li>React</li>
           <li>Next.js</li>
           <li>Cypress</li>
+          <li>Jest</li>
           <li>Git</li>
         </ul>
       </div>
