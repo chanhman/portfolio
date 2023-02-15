@@ -24,10 +24,13 @@ const Resume = () => (
             Provide feedback to developers and designers during pull request reviews and design discussions;
           </li>
           <li>
-            Create well-organized, efficient code that adheres to current design patterns and industry best practices;
+            Develop efficient, organized code that follows current industry best practices, and utilize tools such as Next.js, styled-components, Storybook, and Typescript;
           </li>
           <li>
-            Utilize modern web frameworks and tools including Cypress, Next.js, and styled-components.
+            Use testing tools like Jest and Cypress to detect and prevent bugs from occurring;
+          </li>
+          <li>
+            Collaborate with the QA team to ensure that all the requirements are available for thorough testing.
           </li>
         </ul>
       </div>
