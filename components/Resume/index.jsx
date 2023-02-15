@@ -85,22 +85,6 @@ const Resume = () => (
           </li>
         </ul>
       </div>
-
-      <div className={styles.oldExperience}>
-        <div className={styles.subsection}>
-          <h3 className={styles.name}>Silverpoint</h3>
-          <div className={styles.info}>
-            <p className={styles.position}>Web Designer / Apr 2008 - Sep 2010</p>
-          </div>
-        </div>
-
-        <div className={styles.subsection}>
-          <h3 className={styles.name}>carbonhouse</h3>
-          <div className={styles.info}>
-            <p className={styles.position}>Junior Web Designer / 2007 -2008</p>
-          </div>
-        </div>
-      </div>
     </div>
 
     <aside className={styles.aside}>
