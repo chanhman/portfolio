@@ -30,7 +30,7 @@ const Resume = () => (
             Use testing tools like Jest and Cypress to detect and prevent bugs from occurring;
           </li>
           <li>
-            Collaborate with the QA team to ensure that all the requirements are available for thorough testing.
+            Work together with the QA team to ensure that all the requirements are available for thorough testing.
           </li>
         </ul>
       </div>
