@@ -87,18 +87,14 @@ const Resume = () => (
         <div className={styles.subsection}>
           <h3 className={styles.name}>Silverpoint</h3>
           <div className={styles.info}>
-            <p className={styles.date}>Apr 2008 - Sep 2010</p>
-            <p className={styles.position}>Web Designer</p>
-            <p className={styles.location}>Baltimore, MD</p>
+            <p className={styles.position}>Web Designer / Apr 2008 - Sep 2010</p>
           </div>
         </div>
 
         <div className={styles.subsection}>
           <h3 className={styles.name}>carbonhouse</h3>
           <div className={styles.info}>
-            <p className={styles.date}>2007 -2008</p>
-            <p className={styles.position}>Junior Web Designer</p>
-            <p className={styles.location}>Charlotte, NC</p>
+            <p className={styles.position}>Junior Web Designer / 2007 -2008</p>
           </div>
         </div>
       </div>
