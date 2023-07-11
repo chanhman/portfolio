@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import styles from './About.module.scss'
+import Link from 'next/link';
+import Image from 'next/image';
+import styles from './About.module.scss';
 
 const About = () => (
   <section className={styles.container} id="about">
@@ -29,15 +29,15 @@ const About = () => (
           be found training for an ultra run, seeing if Figma really is better
           than Sketch, or watching YouTube videos on JavaScript.
         </p>
-        <Link href="resume">
-          View résumé
-        </Link>
+        <Link href="resume">View résumé</Link>
       </div>
     </div>
     <div className={styles.stats}>
       <div>
         <h3 className={styles.subheading}>Experience</h3>
         <ul>
+          <li>Software engineer at YouAi</li>
+          <li>Software engineer at Weedmaps</li>
           <li>Designer and front-end developer at Objective</li>
           <li>Product designer at Leadformance</li>
           <li>Web designer at Silverpoint</li>
@@ -77,6 +77,6 @@ const About = () => (
       </div>
     </div>
   </section>
-)
+);
 
-export default About
+export default About;
