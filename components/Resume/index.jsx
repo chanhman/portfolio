@@ -118,7 +118,7 @@ const Resume = () => (
             <a href="mailto:hello@chanh.design">hello@chanh.design</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/chanh-nguyen-8ab501b8">
+            <a href="www.linkedin.com/in/chanhdnguyen">
               LinkedIn
             </a>
           </li>
