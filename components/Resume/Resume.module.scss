@@ -18,9 +18,9 @@
 
   @media print {
     display: grid;
-    gap: 2.5rem;
+    gap: 2rem;
     grid-template-columns: 3fr 1fr;
-    padding: 2cm;
+    padding: 1.5cm;
   }
 }
 
@@ -29,7 +29,7 @@
   margin-bottom: 2rem;
 
   @media print {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 }
 
@@ -112,8 +112,8 @@
       font-size: 11px;
     }
 
-    &:not(:last-child)::after{
-      content: ' / '
+    &:not(:last-child)::after {
+      content: ' / ';
     }
   }
 }
@@ -124,7 +124,6 @@
   list-style-type: square;
   list-style-position: inside;
   padding-left: 0;
-
 
   li {
     line-height: 1.6;

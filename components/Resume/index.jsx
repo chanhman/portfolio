@@ -4,7 +4,7 @@ const Resume = () => (
   <section className={styles.container}>
     <header className={styles.header}>
       <h1 className={styles.title}>Chanh Nguyen</h1>
-      <p className={styles.subtitle}>Front-end Developer</p>
+      <p className={styles.subtitle}>Frontend Developer</p>
     </header>
 
     <div>
@@ -18,7 +18,8 @@ const Resume = () => (
         <ul className={styles.role}>
           <li>
             Assisted in creating and successfully releasing the alpha version of
-            the product using tools such as Next.js, Typescript, and styled-components
+            the product using tools such as Next.js, Typescript, and
+            styled-components
           </li>
           <li>
             Gathered and analyzed feedback from users within the Discord server,
@@ -96,8 +97,7 @@ const Resume = () => (
           </li>
           <li>
             Collaborated with clients, project managers, and developers to
-            design and develop products that met clients' needs and
-            requirements
+            design and develop products that met clients' needs and requirements
           </li>
           <li>
             Utilized prototyping tools such as InVision, Sketch, and HTML/CSS to
@@ -118,9 +118,7 @@ const Resume = () => (
             <a href="mailto:hello@chanh.design">hello@chanh.design</a>
           </li>
           <li>
-            <a href="www.linkedin.com/in/chanhdnguyen">
-              LinkedIn
-            </a>
+            <a href="www.linkedin.com/in/chanhdnguyen">LinkedIn</a>
           </li>
         </ul>
       </div>
