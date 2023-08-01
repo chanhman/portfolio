@@ -18,7 +18,7 @@ const Resume = () => (
         <ul className={styles.role}>
           <li>
             Assisted in creating and successfully releasing the alpha version of
-            the product;
+            the product using tools such as Next.js, Typescript, and styled-components;
           </li>
           <li>
             Gathered and analyzed feedback from users within the Discord server,
