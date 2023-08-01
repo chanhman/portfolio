@@ -12,31 +12,31 @@ const Resume = () => (
       <div className={styles.subsection}>
         <h3 className={styles.name}>YouAi</h3>
         <div className={styles.info}>
-          <p>Aoril 2023 - July 2023</p>
+          <p>April 2023 - July 2023</p>
           <p>Senior Software Engineer</p>
         </div>
         <ul className={styles.role}>
           <li>
             Assisted in creating and successfully releasing the alpha version of
-            the product using tools such as Next.js, Typescript, and styled-components;
+            the product using tools such as Next.js, Typescript, and styled-components
           </li>
           <li>
             Gathered and analyzed feedback from users within the Discord server,
             working closely with designers to improve and create new features
-            based on user insights;
+            based on user insights
           </li>
           <li>
             Conducted thorough testing of ideas, iterating and refining as
-            necessary to enhance product performance and user experience;
+            necessary to enhance product performance and user experience
           </li>
           <li>
             Collaborated with designers, project managers, and other developers,
-            providing valuable feedback to expedite feature development.
+            providing valuable feedback to expedite feature development
           </li>
           <li>
             Introduced and began working on a design system using Storybook and
             Material UI, promoting consistency and improving efficiency in
-            prototyping and feature implementation.
+            prototyping and feature implementation
           </li>
         </ul>
       </div>
@@ -50,26 +50,26 @@ const Resume = () => (
           <li>
             Collaborated with project managers, developers, and designers to
             decompose features, clearly define requirements, and identify
-            potential issues;
+            potential issues
           </li>
           <li>
             Developed efficient, organized code following current industry best
             practices, utilizing tools such as Next.js, styled-components,
-            Storybook, and TypeScript;
+            Storybook, and TypeScript
           </li>
           <li>
             Wrote and maintained unit and end-to-end tests, with tools like Jest
-            and Cypress, to detect and prevent bugs;
+            and Cypress, to detect and prevent bugs
           </li>
           <li>
             Created intuitive dashboards for dispensary owners to easily access
             and analyze data, enabling them to optimize sales and refine
-            descriptions for generating more leads;
+            descriptions for generating more leads
           </li>
           <li>
             Utilized tools like Heap and Salesforce to drive the development of
             features that improved client payment efficiency, leading to
-            increased on-time bill payments and team revenue growth.
+            increased on-time bill payments and team revenue growth
           </li>
         </ul>
       </div>
@@ -81,27 +81,27 @@ const Resume = () => (
         </div>
         <ul className={styles.role}>
           <li>
-            Developed projects using semantic, well-organized HTML and CSS;
+            Developed projects using semantic, well-organized HTML and CSS
           </li>
           <li>
-            Created reusable UI components using React and similar libraries;
+            Created reusable UI components using React and similar libraries
           </li>
           <li>
             Ensured cross-browser compatibility using the latest optimization
-            techniques;
+            techniques
           </li>
           <li>
             Assisted team members in learning and implementing front-end best
-            practices;
+            practices
           </li>
           <li>
             Collaborated with clients, project managers, and developers to
             design and develop products that met clients' needs and
-            requirements;
+            requirements
           </li>
           <li>
             Utilized prototyping tools such as InVision, Sketch, and HTML/CSS to
-            validate business models, user experiences, and ideas.
+            validate business models, user experiences, and ideas
           </li>
         </ul>
       </div>
