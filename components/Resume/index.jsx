@@ -128,21 +128,19 @@ const Resume = () => (
       <div className={styles.subsection}>
         <h2 className={styles.heading}>Skills</h2>
         <ul>
-          <li>Figma</li>
-          <li>Sketch</li>
-          <li>UI</li>
-          <li>Visual Design</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Storybook</li>
-          <li>styled-components</li>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
           <li>React</li>
           <li>Next.js</li>
+          <li>TypeScript</li>
+          <li>JavaScript</li>
           <li>Cypress</li>
           <li>Jest</li>
+          <li>Storybook</li>
+          <li>styled-components</li>
           <li>Git</li>
+          <li>Figma</li>
+          <li>Sketch</li>
+          <li>HTML</li>
+          <li>CSS</li>
         </ul>
       </div>
 
