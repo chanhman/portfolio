@@ -90,26 +90,22 @@ const Resume = () => (
         </div>
         <ul className={styles.role}>
           <li>
-            Developed projects using semantic, well-organized HTML and CSS
+            Collaborated closely with designers to establish design systems and
+            develop reusable UI components, cultivating a more seamless
+            development workflow
           </li>
           <li>
-            Created reusable UI components using React and similar libraries
-          </li>
-          <li>
-            Ensured cross-browser compatibility using the latest optimization
-            techniques
-          </li>
-          <li>
-            Assisted team members in learning and implementing frontend best
-            practices
-          </li>
-          <li>
-            Collaborated with clients, project managers, and developers to
-            design and develop products that met clients' needs and requirements
+            Worked closely with clients, project managers, and developers to
+            design and deliver customized products that aligned with client
+            needs
           </li>
           <li>
             Utilized prototyping tools such as InVision, Sketch, and HTML/CSS to
             validate business models, user experiences, and ideas
+          </li>
+          <li>
+            Played a pivotal role in fostering frontend best practices within
+            the team
           </li>
         </ul>
       </div>
