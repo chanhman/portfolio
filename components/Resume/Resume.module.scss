@@ -76,12 +76,20 @@
   }
 }
 
+.intro {
+  @media print {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+}
+
 .name {
   margin-top: 0;
   margin-bottom: 1rem;
 
   @media print {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
     font-size: 1rem;
   }
 }
@@ -98,10 +106,7 @@
   display: flex;
   gap: 0.5rem;
   opacity: 0.65;
-
-  &:not(:last-child) {
-    margin-bottom: 1rem;
-  }
+  margin-bottom: 0;
 
   p {
     @include margin-v-reset;
@@ -120,10 +125,13 @@
 
 .role {
   padding-left: 2rem;
-
+  padding-left: 0;
   list-style-type: square;
   list-style-position: inside;
-  padding-left: 0;
+
+  @media print {
+    margin-top: 0.5rem;
+  }
 
   li {
     line-height: 1.6;
