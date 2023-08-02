@@ -5,12 +5,13 @@ const Resume = () => (
     <header className={styles.header}>
       <h1 className={styles.title}>Chanh Nguyen</h1>
       <p className={styles.intro}>
-        Experienced Frontend Engineer skilled in creating applications that
-        prioritize exceptional user experiences. Proficient in using React.js,
-        Next.js, TypeScript, and other modern frontend technologies.
-        Demonstrated success in delivering high-quality products through best
-        practices and collaborative approaches. Strong advocate for code quality
-        and testing.
+        A Frontend Engineer skilled in crafting applications prioritizing
+        exceptional user experiences. Proficient in React.js, Next.js, and
+        TypeScript. Demonstrated success in delivering high-quality products
+        through best practices and collaborative approaches. Strong advocate for
+        code quality and testing. Enjoys creating and maintaining design systems
+        in partnership with designers for consistency and developers for
+        seamless implementation.
       </p>
     </header>
 
@@ -85,7 +86,7 @@ const Resume = () => (
         <h3 className={styles.name}>Objective Inc.</h3>
         <div className={styles.info}>
           <p>Aug 2015 - Dec 2021</p>
-          <p>Front-end Developer &amp; Designer</p>
+          <p>Frontend Developer &amp; Designer</p>
         </div>
         <ul className={styles.role}>
           <li>
@@ -99,7 +100,7 @@ const Resume = () => (
             techniques
           </li>
           <li>
-            Assisted team members in learning and implementing front-end best
+            Assisted team members in learning and implementing frontend best
             practices
           </li>
           <li>
