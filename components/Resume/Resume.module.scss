@@ -168,3 +168,15 @@
     }
   }
 }
+
+.stack {
+  margin-top: 0.875rem;
+
+  @media print {
+    font-size: 11px;
+  }
+
+  b {
+    font-weight: 700;
+  }
+}

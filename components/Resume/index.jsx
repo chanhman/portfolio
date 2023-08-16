@@ -23,6 +23,9 @@ const Resume = () => (
           <p>April 2023 - July 2023</p>
           <p>Senior Software Engineer</p>
         </div>
+        <div className={styles.stack}>
+          <b>Stack:</b> Next.js, TypeScript, styled-components, MUI, Storybook
+        </div>
         <ul className={styles.role}>
           <li>
             Assisted in creating and successfully releasing the alpha version of
@@ -55,6 +58,10 @@ const Resume = () => (
           <p>Dec 2021 - April 2023</p>
           <p>Software Engineer II</p>
         </div>
+        <div className={styles.stack}>
+          <b>Stack:</b> Next.js, TypeScript, styled-components, Jest, Cypress,
+          MUI, Storybook
+        </div>
         <ul className={styles.role}>
           <li>
             Collaborated with project managers, developers, and designers to
@@ -86,7 +93,11 @@ const Resume = () => (
         <h3 className={styles.name}>Objective Inc.</h3>
         <div className={styles.info}>
           <p>Aug 2015 - Dec 2021</p>
-          <p>Frontend Developer &amp; Designer</p>
+          <p>Frontend Developer</p>
+        </div>
+        <div className={styles.stack}>
+          <b>Stack:</b> React, Next.js, styled-components, Ruby on Rails,
+          Wordpress, Craft CMS, Shopify
         </div>
         <ul className={styles.role}>
           <li>
@@ -106,6 +117,41 @@ const Resume = () => (
           <li>
             Played a pivotal role in fostering frontend best practices within
             the team
+          </li>
+        </ul>
+      </div>
+      <div className={styles.subsection}>
+        <h3 className={styles.name}>Leadformance</h3>
+        <div className={styles.info}>
+          <p>Oct 2010 - April 2015</p>
+          <p>Frontend Developer &amp; Product Designer</p>
+        </div>
+        <div className={styles.stack}>
+          <b>Stack:</b> Ruby on Rails, Sass, Haml, jQuery
+        </div>
+        <ul className={styles.role}>
+          <li>
+            Revamped and enhanced both the Admin app and microsite creations,
+            empowering brands to effectively promote their European locations
+          </li>
+          <li>
+            Implemented features within the Admin app to help stores maintain
+            their information, create deals to generate more leads, and display
+            metrics for owners to track the effectiveness of deals
+          </li>
+          <li>
+            Worked with the CPO to design and develop features based on user
+            feedback, utilizing tools like Sketch and InVision to quickly create
+            prototypes, and collaborated with other developers to implement them
+            in the Ruby on Rails app
+          </li>
+          <li>
+            Created reusable templates for designers to quickly produce new
+            designs for brands using frameworks like Bootstrap
+          </li>
+          <li>
+            Collaborated with SEO engineers to ensure templates were
+            SEO-friendly and made further improvements to the templates
           </li>
         </ul>
       </div>
