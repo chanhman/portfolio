@@ -7,8 +7,9 @@ const Resume = () => (
       <p className={styles.intro}>
         A Frontend Engineer who contributed to a wide range of businesses, from
         dynamic startups to well-established agencies. Proficient in{' '}
-        <b>React</b>, <b>Next.js</b>, and <b>TypeScript</b>. Demonstrated
-        success in delivering high-quality products through best practices and
+        <b>React</b>, <b>Next.js</b>, <b>TypeScript</b>, and various styling
+        methods such as using <b>styled-components</b>. Demonstrated success in
+        delivering high-quality products through best practices and
         collaborative approaches. Strong advocate for code quality and testing.
         Enjoys creating and maintaining design systems in partnership with
         designers for consistency and developers for seamless implementation.
