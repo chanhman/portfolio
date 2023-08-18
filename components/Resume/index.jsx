@@ -103,12 +103,11 @@ const Resume = () => (
         <ul className={styles.role}>
           <li>
             Collaborated closely with designers to establish design systems and
-            develop reusable UI components, cultivating a more seamless
-            development workflow
+            develop reusable UI components using tools such as React and Laravel
           </li>
           <li>
             Worked closely with clients, project managers, and developers to
-            design and deliver customized products that aligned with client
+            design and develop customized products that aligned with client
             needs
           </li>
           <li>
