@@ -25,7 +25,8 @@ const Resume = () => (
           <p>Senior Software Engineer</p>
         </div>
         <div className={styles.stack}>
-          <b>Stack:</b> Next.js, TypeScript, styled-components, MUI, Storybook
+          <b>Stack:</b> React, Next.js, TypeScript, styled-components, MUI,
+          Storybook
         </div>
         <ul className={styles.role}>
           <li>
@@ -60,8 +61,8 @@ const Resume = () => (
           <p>Software Engineer II</p>
         </div>
         <div className={styles.stack}>
-          <b>Stack:</b> Next.js, TypeScript, styled-components, Jest, Cypress,
-          MUI, Storybook
+          <b>Stack:</b> React, Next.js, TypeScript, styled-components, Jest,
+          Cypress, MUI, Storybook
         </div>
         <ul className={styles.role}>
           <li>
