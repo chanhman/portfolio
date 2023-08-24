@@ -30,27 +30,23 @@ const Resume = () => (
         </div>
         <ul className={styles.role}>
           <li>
-            Assisted in creating and successfully releasing the alpha version of
-            the product making use of tools such as Next.js, Typescript, and
-            styled-components
+            Contributed to the creation and successful release of the alpha
+            version of the product by developing the user interface using a
+            combination of React, TypeScript, and styled-components
           </li>
           <li>
-            Gathered and analyzed feedback from users within the Discord server,
-            working closely with designers to improve and create new features
-            based on user insights
+            Established a design system by developing reusable React components,
+            ensuring consistency with Material UI, and providing documentation
+            using Storybook
           </li>
           <li>
-            Conducted thorough testing of ideas, iterating and refining as
-            necessary to enhance product performance and user experience
+            Collaborated closely with designers to decompose complex features
+            into smaller, more manageable components, ensuring feasibility in
+            terms of both complexity and meeting specific deadlines.
           </li>
           <li>
-            Collaborated with designers, project managers, and other developers,
-            providing valuable feedback to expedite feature development
-          </li>
-          <li>
-            Introduced and began working on a design system using Storybook and
-            Material UI, promoting consistency and improving efficiency in
-            prototyping and feature implementation
+            Carried out thorough testing across various browsers and devices,
+            iterated on the features based on user test results and redesigns
           </li>
         </ul>
       </div>
