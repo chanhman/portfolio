@@ -35,6 +35,11 @@ const Resume = () => (
             combination of React, TypeScript, and styled-components
           </li>
           <li>
+            Utilized both OpenAI's API and YouAi's API to capture and store user
+            input, leveraging this data to deliver more precise and detailed
+            results
+          </li>
+          <li>
             Established a design system by developing reusable React components,
             ensuring consistency with Material UI, and providing documentation
             using Storybook
@@ -65,6 +70,11 @@ const Resume = () => (
             Collaborated with project managers, developers, and designers to
             decompose features, clearly define requirements, and identify
             potential issues
+          </li>
+          <li>
+            Worked closely with backend engineers to understand the API
+            contract, assess existing endpoints, identify necessary endpoint
+            creation, and evaluate logic feasibility for feature designs
           </li>
           <li>
             Developed efficient, organized code following current industry best
