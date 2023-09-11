@@ -45,13 +45,13 @@ const Resume = () => (
             using Storybook
           </li>
           <li>
-            Collaborated closely with designers to decompose complex features
-            into smaller, more manageable components, ensuring feasibility in
-            terms of both complexity and meeting specific deadlines.
-          </li>
-          <li>
             Carried out thorough testing across various browsers and devices,
             iterated on the features based on user test results and redesigns
+          </li>
+          <li>
+            Collaborated closely with designers to decompose complex features
+            into smaller, more manageable components, ensuring feasibility in
+            terms of both complexity and meeting specific deadlines
           </li>
         </ul>
       </div>
@@ -67,19 +67,14 @@ const Resume = () => (
         </div>
         <ul className={styles.role}>
           <li>
-            Collaborated with project managers, developers, and designers to
-            decompose features, clearly define requirements, and identify
-            potential issues
+            Developed efficient, organized code following current industry best
+            practices, utilizing tools such as Next.js, styled-components,
+            Storybook, and TypeScript
           </li>
           <li>
             Worked closely with backend engineers to understand the API
             contract, assess existing endpoints, identify necessary endpoint
             creation, and evaluate logic feasibility for feature designs
-          </li>
-          <li>
-            Developed efficient, organized code following current industry best
-            practices, utilizing tools such as Next.js, styled-components,
-            Storybook, and TypeScript
           </li>
           <li>
             Wrote and maintained unit and end-to-end tests, with tools like Jest
@@ -94,6 +89,11 @@ const Resume = () => (
             Utilized tools like Heap and Salesforce to drive the development of
             features that improved client payment efficiency, leading to
             increased on-time bill payments and team revenue growth
+          </li>
+          <li>
+            Collaborated with project managers, developers, and designers to
+            decompose features, clearly define requirements, and identify
+            potential issues
           </li>
         </ul>
       </div>
