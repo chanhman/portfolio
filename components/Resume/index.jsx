@@ -6,13 +6,14 @@ const Resume = () => (
       <h1 className={styles.title}>Chanh Nguyen</h1>
       <p className={styles.intro}>
         A Frontend Engineer who contributed to a wide range of businesses, from
-        dynamic startups to well-established agencies. Proficient in{' '}
-        <b>React</b>, <b>Next.js</b>, <b>TypeScript</b>, and various styling
-        methods such as using <b>styled-components</b>. Demonstrated success in
-        delivering high-quality products through best practices and
-        collaborative approaches. Strong advocate for code quality and testing.
-        Enjoys creating and maintaining design systems in partnership with
-        designers for consistency and developers for seamless implementation.
+        dynamic startups to well-established agencies. Proficient in <b>HTML</b>{' '}
+        and <b>CSS</b>, <b>React</b>, <b>Next.js</b>, <b>TypeScript</b>, and
+        various styling methods such as using <b>styled-components</b>.
+        Demonstrated success in delivering high-quality products through best
+        practices and collaborative approaches such as code reviews. Strong
+        advocate for code quality and testing. Enjoys creating and maintaining
+        design systems in partnership with designers and developers for
+        consistency and seamless implementation.
       </p>
     </header>
 
@@ -25,14 +26,14 @@ const Resume = () => (
           <p>Senior Software Engineer</p>
         </div>
         <div className={styles.stack}>
-          <b>Stack:</b> React, Next.js, TypeScript, styled-components, MUI,
-          Storybook
+          <b>Stack:</b> React, React Hooks, Next.js, TypeScript,
+          styled-components, MUI, Storybook
         </div>
         <ul className={styles.role}>
           <li>
             Contributed to the creation and successful release of the alpha
             version of the product by developing the user interface using a
-            combination of React, TypeScript, and styled-components
+            combination of React, React Hooks, TypeScript, and styled-components
           </li>
           <li>
             Utilized both OpenAI's API and YouAi's API to capture and store user
@@ -62,14 +63,14 @@ const Resume = () => (
           <p>Software Engineer II</p>
         </div>
         <div className={styles.stack}>
-          <b>Stack:</b> React, Next.js, TypeScript, styled-components, Jest,
-          Cypress, MUI, Storybook
+          <b>Stack:</b> React, React Hooks, Next.js, React Query, MobX,
+          TypeScript, styled-components, Jest, Cypress, MUI, Storybook
         </div>
         <ul className={styles.role}>
           <li>
             Developed efficient, organized code following current industry best
-            practices, utilizing tools such as Next.js, styled-components,
-            Storybook, and TypeScript
+            practices, utilizing tools such as React, React Hooks, React Query,
+            Next.js, styled-components, Storybook, and TypeScript
           </li>
           <li>
             Worked closely with backend engineers to understand the API
