@@ -176,7 +176,7 @@ const Resume = () => (
             <a href="mailto:hello@chanh.design">hello@chanh.design</a>
           </li>
           <li>
-            <a href="www.linkedin.com/in/chanhdnguyen">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/chanhdnguyen">LinkedIn</a>
           </li>
         </ul>
       </div>
