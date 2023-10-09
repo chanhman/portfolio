@@ -7,13 +7,14 @@ const Resume = () => (
       <p className={styles.intro}>
         A Frontend Engineer who contributed to a wide range of businesses, from
         dynamic startups to well-established agencies. Proficient in <b>HTML</b>{' '}
-        and <b>CSS</b>, <b>React</b>, <b>Next.js</b>, <b>TypeScript</b>, and
-        various styling methods such as using <b>styled-components</b>.
-        Demonstrated success in delivering high-quality products through best
-        practices and collaborative approaches such as code reviews. Strong
-        advocate for code quality and testing. Enjoys creating and maintaining
-        design systems in partnership with designers and developers for
-        consistency and seamless implementation.
+        and <b>CSS</b>, <b>JavaScript</b> and <b>TypeScript</b>, <b>React</b>,{' '}
+        <b>Next.js</b>, and various styling methods such as using{' '}
+        <b>styled-components</b>. Demonstrated success in delivering
+        high-quality products through best practices and collaborative
+        approaches such as code reviews. Strong advocate for code quality and
+        testing. Enjoys creating and maintaining design systems in partnership
+        with designers and developers for consistency and seamless
+        implementation.
       </p>
     </header>
 
@@ -92,9 +93,10 @@ const Resume = () => (
             increased on-time bill payments and team revenue growth
           </li>
           <li>
-            Collaborated with project managers, developers, and designers to
-            decompose features, clearly define requirements, and identify
-            potential issues
+            Enhanced the admin application by implementing industry best
+            practices, optimizing performance with tools like React Hooks and
+            React Query, and transitioning from class-based to functional
+            components
           </li>
         </ul>
       </div>
@@ -106,25 +108,35 @@ const Resume = () => (
         </div>
         <div className={styles.stack}>
           <b>Stack:</b> React, Next.js, styled-components, Ruby on Rails,
-          Wordpress, Craft CMS, Shopify
+          Wordpress, Craft CMS, Shopify, HTML, CSS, JavaScript
         </div>
         <ul className={styles.role}>
           <li>
-            Collaborated closely with designers to establish design systems and
-            develop reusable UI components using tools such as React and Laravel
+            Worked with diverse clients, ranging from startups to established
+            companies, to develop proof of concepts, maintain existing
+            applications, and implement new features
           </li>
           <li>
-            Worked closely with clients, project managers, and developers to
-            design and develop customized products that aligned with client
-            needs
+            Played a key role in creating various types of applications,
+            including single-page applications, using different frameworks, with
+            a specific focus on React.js and JavaScript
           </li>
           <li>
-            Utilized prototyping tools such as InVision, Sketch, and HTML/CSS to
-            validate business models, user experiences, and ideas
+            Define optimal tech stacks for MVP development, closely coordinating
+            with backend developers to select appropriate technologies such as
+            JavaScript, Ruby on Rails, Phoenix Elixir, and React
           </li>
           <li>
-            Played a pivotal role in fostering frontend best practices within
-            the team
+            Worked closely with clients, backend developers, and designers to
+            ensure seamless integration of frontend solutions
+          </li>
+          <li>
+            Developed and maintained design systems for consistency and
+            efficient feature implementation
+          </li>
+          <li>
+            Focused on cross-device compatibility, ensuring optimal performance
+            on various devices, including phones, tablets, and laptops
           </li>
         </ul>
       </div>
@@ -156,10 +168,6 @@ const Resume = () => (
           <li>
             Created reusable templates for designers to quickly produce new
             designs for brands using frameworks like Bootstrap
-          </li>
-          <li>
-            Collaborated with SEO engineers to ensure templates were
-            SEO-friendly and made further improvements to the templates
           </li>
         </ul>
       </div>
