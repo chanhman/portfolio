@@ -31,8 +31,7 @@ const Resume = () => (
         </div>
         <ul className={styles.role}>
           <li>
-            Established and maintained design standards for Xona product front ends,
-            ensuring consistency and usability across applications
+            Established and maintained design standards, ensuring consistency and usability across applications
           </li>
           <li>
             Partnered with product stakeholders to define and refine feature designs
