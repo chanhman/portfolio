@@ -27,33 +27,33 @@ const Resume = () => (
           <p>Senior Software Engineer</p>
         </div>
         <div className={styles.stack}>
-          <b>Stack:</b> React, React Hooks, Next.js, TypeScript,
-          styled-components, MUI, Storybook
+          <b>Stack:</b> React, Remix, TypeScript, MUI, Playwright
         </div>
         <ul className={styles.role}>
           <li>
-            Contributed to the creation and successful release of the alpha
-            version of the product by developing the user interface using a
-            combination of React, React Hooks, TypeScript, and styled-components
+            Established and maintained design standards for Xona product front ends,
+            ensuring consistency and usability across applications
           </li>
           <li>
-            Utilized both OpenAI's API and YouAi's API to capture and store user
-            input, leveraging this data to deliver more precise and detailed
-            results
+            Partnered with product stakeholders to define and refine feature designs
+            ahead of implementation, ensuring alignment with user needs and business
+            goals
           </li>
           <li>
-            Established a design system by developing reusable React components,
-            ensuring consistency with Material UI, and providing documentation
-            using Storybook
+            Built and enhanced frontend features using TypeScript, JavaScript, React,
+            and React Remix, while maintaining and improving existing functionality
           </li>
           <li>
-            Carried out thorough testing across various browsers and devices,
-            iterated on the features based on user test results and redesigns
+            Conducted code reviews to ensure high-quality contributions to Xona frontend
+            components, identifying opportunities for improvement and best practices
           </li>
           <li>
-            Collaborated closely with designers to decompose complex features
-            into smaller, more manageable components, ensuring feasibility in
-            terms of both complexity and meeting specific deadlines
+            Provided technical guidance to teammates, helping them navigate frontend
+            coding decisions and architectural choices
+          </li>
+          <li>
+            Improved development operations by implementing automated testing
+            strategies, enhancing test coverage, and streamlining workflows
           </li>
         </ul>
       </div>
