@@ -21,9 +21,9 @@ const Resume = () => (
     <div>
       <h2 className={styles.heading}>Experience</h2>
       <div className={styles.subsection}>
-        <h3 className={styles.name}>YouAi</h3>
+        <h3 className={styles.name}>Xona</h3>
         <div className={styles.info}>
-          <p>April 2023 - July 2023</p>
+          <p>April 2024 - Current</p>
           <p>Senior Software Engineer</p>
         </div>
         <div className={styles.stack}>
